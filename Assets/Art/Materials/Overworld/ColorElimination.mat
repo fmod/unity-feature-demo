@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ColorElimination
+  m_Shader: {fileID: 4800000, guid: 29bbe44a837cbb44a8980aa16f466b8d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs: {}
+    m_Floats:
+      data:
+        first:
+          name: _Density
+        second: 0.01
+      data:
+        first:
+          name: _FadePower
+        second: 9.5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.012975791, g: 0.3978047, b: 0.58823526, a: 1}
+      data:
+        first:
+          name: _node_4243
+        second: {r: 0, g: 0, b: 0, a: -0.1}
+      data:
+        first:
+          name: _node_7887
+        second: {r: 0.8, g: 3.2, b: 7.7, a: 0}
+      data:
+        first:
+          name: _node_1773
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      data:
+        first:
+          name: _node_609
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 1}

@@ -1,0 +1,19 @@
+diff a/FMOD Demo/ProjectSettings/GraphicsSettings.asset b/FMOD Demo/ProjectSettings/GraphicsSettings.asset	(rejected hunks)
+@@ -23,6 +23,17 @@
+   - {fileID: 4800000, guid: 3fa2c86104b255a468e452c832f388a5, type: 3}
+   - {fileID: 4800000, guid: 14eb97a45ab534849a9b451ba6745097, type: 3}
+   - {fileID: 4800000, guid: d1775d56d6aedce47a6f316d964de75e, type: 3}
++  - {fileID: 4800000, guid: 4b0c4b1b57714854e8441ef6971cdd9a, type: 3}
++  - {fileID: 4800000, guid: 6fb58553704acfe48a06a0975e2217e0, type: 3}
++  - {fileID: 4800000, guid: 1bb8208d86d0b7a4b958a38cd006f388, type: 3}
++  - {fileID: 4800000, guid: 098ed5e358a61f64ebf45344d5fa4de8, type: 3}
++  - {fileID: 4800000, guid: 46df3149dc069b84a82e2fedd42be43f, type: 3}
++  - {fileID: 4800000, guid: e8b9cb27d33530f468b40dfeaaad3846, type: 3}
++  - {fileID: 4800000, guid: e1bdc013c7257494da0111ecea5a5a97, type: 3}
++  - {fileID: 4800000, guid: 8305668bbd98d604ca08d8e88311d646, type: 3}
++  - {fileID: 4800000, guid: 29bbe44a837cbb44a8980aa16f466b8d, type: 3}
++  - {fileID: 4800000, guid: 6c61dc3bc2fa9fd4a9f7e220e4e67ac0, type: 3}
++  - {fileID: 4800000, guid: 9775b6295fc73d444b2ac273ec0fd94f, type: 3}
+   m_PreloadedShaders: []
+   m_ShaderSettings:
+     useScreenSpaceShadows: 1

@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 8535e1077a14963468bccb9b05ec6cd6
+timeCreated: 1477440343
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Scene_2:polySurface114
+    100004: Scene_2:polySurface282
+    100006: Scene_2:polySurface282 1
+    100008: Scene_2:polySurface283
+    100010: Scene_2:polySurface284
+    100012: Scene_2:polySurface285
+    100014: Scene_2:polySurface286
+    100016: Scene_2:polySurface287
+    100018: Scene_2:polySurface288
+    100020: Scene_2:polySurface289
+    100022: Scene_2:polySurface290
+    100024: Scene_2:polySurface291
+    100026: Scene_2:polySurface292
+    100028: Scene_2:polySurface293
+    100030: Scene_2:polySurface294
+    100032: Scene_2:polySurface295
+    100034: Scene_2:polySurface296
+    100036: Scene_2:polySurface297
+    100038: Scene_2:polySurface298
+    100040: Scene_2:polySurface299
+    100042: Scene_2:polySurface300
+    100044: Scene_2:polySurface301
+    100046: Scene_2:polySurface302
+    100048: Scene_2:polySurface303
+    100050: Scene_2:polySurface304
+    100052: Scene_2:polySurface305
+    100054: Scene_2:polySurface306
+    100056: Scene_2:polySurface307
+    100058: Scene_2:polySurface308
+    100060: Scene_2:polySurface309
+    100062: Scene_2:polySurface310
+    100064: Scene_2:polySurface311
+    100066: Scene_2:transform132
+    100068: Scene_2:transform133
+    100070: Scene_2:transform134
+    100072: Scene_2:transform135
+    100074: Scene_2:transform136
+    100076: Scene_2:transform137
+    100078: Scene_2:transform138
+    100080: Scene_2:transform139
+    100082: Scene_2:transform140
+    100084: Scene_2:transform141
+    100086: Scene_2:transform142
+    100088: Scene_2:transform143
+    100090: Scene_2:transform144
+    100092: Scene_2:transform145
+    100094: Scene_2:transform146
+    100096: Scene_2:transform147
+    100098: Scene_2:transform148
+    100100: Scene_2:transform149
+    100102: Scene_2:transform150
+    100104: Scene_2:transform151
+    100106: Scene_2:transform152
+    100108: Scene_2:transform153
+    100110: Scene_2:transform154
+    100112: Scene_2:transform155
+    100114: Scene_2:transform156
+    100116: Scene_2:transform157
+    100118: Scene_2:transform158
+    100120: Scene_2:transform159
+    100122: Scene_2:transform160
+    100124: Scene_2:transform161
+    400000: //RootNode
+    400002: Scene_2:polySurface114
+    400004: Scene_2:polySurface282
+    400006: Scene_2:polySurface282 1
+    400008: Scene_2:polySurface283
+    400010: Scene_2:polySurface284
+    400012: Scene_2:polySurface285
+    400014: Scene_2:polySurface286
+    400016: Scene_2:polySurface287
+    400018: Scene_2:polySurface288
+    400020: Scene_2:polySurface289
+    400022: Scene_2:polySurface290
+    400024: Scene_2:polySurface291
+    400026: Scene_2:polySurface292
+    400028: Scene_2:polySurface293
+    400030: Scene_2:polySurface294
+    400032: Scene_2:polySurface295
+    400034: Scene_2:polySurface296
+    400036: Scene_2:polySurface297
+    400038: Scene_2:polySurface298
+    400040: Scene_2:polySurface299
+    400042: Scene_2:polySurface300
+    400044: Scene_2:polySurface301
+    400046: Scene_2:polySurface302
+    400048: Scene_2:polySurface303
+    400050: Scene_2:polySurface304
+    400052: Scene_2:polySurface305
+    400054: Scene_2:polySurface306
+    400056: Scene_2:polySurface307
+    400058: Scene_2:polySurface308
+    400060: Scene_2:polySurface309
+    400062: Scene_2:polySurface310
+    400064: Scene_2:polySurface311
+    400066: Scene_2:transform132
+    400068: Scene_2:transform133
+    400070: Scene_2:transform134
+    400072: Scene_2:transform135
+    400074: Scene_2:transform136
+    400076: Scene_2:transform137
+    400078: Scene_2:transform138
+    400080: Scene_2:transform139
+    400082: Scene_2:transform140
+    400084: Scene_2:transform141
+    400086: Scene_2:transform142
+    400088: Scene_2:transform143
+    400090: Scene_2:transform144
+    400092: Scene_2:transform145
+    400094: Scene_2:transform146
+    400096: Scene_2:transform147
+    400098: Scene_2:transform148
+    400100: Scene_2:transform149
+    400102: Scene_2:transform150
+    400104: Scene_2:transform151
+    400106: Scene_2:transform152
+    400108: Scene_2:transform153
+    400110: Scene_2:transform154
+    400112: Scene_2:transform155
+    400114: Scene_2:transform156
+    400116: Scene_2:transform157
+    400118: Scene_2:transform158
+    400120: Scene_2:transform159
+    400122: Scene_2:transform160
+    400124: Scene_2:transform161
+    2300000: Scene_2:polySurface282
+    3300000: Scene_2:polySurface282
+    4300000: Scene_2:polySurface282
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
