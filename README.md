@@ -30,9 +30,11 @@ Key tips while playing:
 
 In every custom script containing FMOD, you will see this comment structure before the lines that refer to FMOD:
 
+```
   /*===============================================Fmod====================================================
   |                     So using - find "FMOD" should take you to all the important bits.                 |
   =======================================================================================================*/
+```
 
 The FMOD Studio Project is included as "Fmod Demo Sounds.fspackage", which can be opened with any minor version of FMOD Studio 2.01.
 
