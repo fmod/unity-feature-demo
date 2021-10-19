@@ -24,8 +24,9 @@ public class MainSound : MonoBehaviour
     [HideInInspector]
     public Texture2D m_soundTex;
 
+    public FMODUnity.EventReference m_musicRef;
+
     // Private Vars
-    [FMODUnity.EventRef]    public string m_eventRef;
     FMOD.Studio.EventInstance m_eventInstance;
     
     FMOD.ChannelGroup m_channelGroup;
@@ -74,7 +75,7 @@ public class MainSound : MonoBehaviour
         /*===============================================Fmod====================================================
         |                                  Create an instance of the event.                                     |
         =======================================================================================================*/
-        m_eventInstance = FMODUnity.RuntimeManager.CreateInstance(m_eventRef);
+        m_eventInstance = FMODUnity.RuntimeManager.CreateInstance(m_musicRef);
 
         /*===============================================Fmod====================================================
         |    Explicitly create the delegate object and assign it to a member so it doesn't get freed by the      |

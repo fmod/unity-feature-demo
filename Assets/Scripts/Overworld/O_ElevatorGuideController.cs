@@ -17,7 +17,8 @@ public class O_ElevatorGuideController : ActionObject
     public int m_floor;
     //public float m_guideY;
     public float m_elevatorY;
-    [FMODUnity.EventRef]    public string m_buttonEvent;
+
+    public FMODUnity.EventReference m_buttonRef;
 
     //bool m_guideIsCurrent;
 
@@ -38,7 +39,7 @@ public class O_ElevatorGuideController : ActionObject
         //{
         //    m_guideIsCurrent = false;
         m_elevator.ChangeFloor(m_floor, m_elevatorY);
-        FMODUnity.RuntimeManager.PlayOneShot(m_buttonEvent, transform.position);
+        FMODUnity.RuntimeManager.PlayOneShot(m_buttonRef, transform.position);
         //    m_pillar.Hide();
         //}
         //else

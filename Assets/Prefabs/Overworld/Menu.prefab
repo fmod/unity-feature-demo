@@ -7399,8 +7399,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27d854d646d98fd45a808059adff30d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_portLeave: event:/Overworld/Port Depart
-  m_portArrive: event:/Overworld/Port Arrive
+  m_portLeave: 
+  m_portLeaveRef:
+    Guid:
+      Data1: 1217645575
+      Data2: 1169337962
+      Data3: 482426790
+      Data4: 838295678
+    Path: event:/Overworld/Port Depart
+  m_portArrive: 
+  m_portArriveRef:
+    Guid:
+      Data1: -125505235
+      Data2: 1177010958
+      Data3: 277953956
+      Data4: 962761410
+    Path: event:/Overworld/Port Arrive
   fadeScript: {fileID: 0}
 --- !u!1 &160334
 GameObject:

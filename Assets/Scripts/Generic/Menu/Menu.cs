@@ -16,13 +16,11 @@ public class Menu : MonoBehaviour
     /*===============================================Fmod====================================================
     |  		Create event instance variables and description, which is used to get the playback position.    |
     =======================================================================================================*/
-    [FMODUnity.EventRef]
-    public string m_portLeave;
+    public FMODUnity.EventReference m_portLeaveRef;
     FMOD.Studio.EventInstance m_portLeaveEvent;
     FMOD.Studio.EventDescription m_portLeaveDesc;
 
-    [FMODUnity.EventRef]
-    public string m_portArrive;
+    public FMODUnity.EventReference m_portArriveRef;
     FMOD.Studio.EventInstance m_portArriveEvent;
 
     bool m_menuIsOpen;
@@ -38,14 +36,14 @@ public class Menu : MonoBehaviour
         /*===============================================Fmod====================================================
         |  	    	If the string isn't empty, create the instance and assign the description var.              |
         =======================================================================================================*/
-        if (m_portLeave != "")
+        if (!m_portLeaveRef.IsNull)
         {
-            m_portLeaveEvent = FMODUnity.RuntimeManager.CreateInstance(m_portLeave);
+            m_portLeaveEvent = FMODUnity.RuntimeManager.CreateInstance(m_portLeaveRef);
             m_portLeaveEvent.getDescription(out m_portLeaveDesc);
         }
-        if (m_portArrive != "")
+        if (!m_portArriveRef.IsNull)
         {
-            m_portArriveEvent = FMODUnity.RuntimeManager.CreateInstance(m_portArrive);
+            m_portArriveEvent = FMODUnity.RuntimeManager.CreateInstance(m_portArriveRef);
         }
 
         m_actor = Camera.main.GetComponentInParent<ActorControls>();

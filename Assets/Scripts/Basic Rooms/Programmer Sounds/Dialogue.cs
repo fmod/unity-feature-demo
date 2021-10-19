@@ -19,9 +19,8 @@ public class Dialogue : MonoBehaviour
 {
     static FMOD.Studio.EVENT_CALLBACK m_dialogueCallback;
 
-    [FMODUnity.EventRef]
-    public string m_dialogueName;
-    
+    public FMODUnity.EventReference m_dialogueRef;
+
     void Start()
     {
         /*===============================================Fmod====================================================
@@ -30,8 +29,6 @@ public class Dialogue : MonoBehaviour
         =======================================================================================================*/
         m_dialogueCallback = new FMOD.Studio.EVENT_CALLBACK(DialogueEventCallback);
     }
-    void Update()
-    {}
 
     /*===============================================Fmod====================================================
     |   PlayDialogue's parameter is of type string. What gets passed into here is the "key" value from the  |
@@ -47,7 +44,7 @@ public class Dialogue : MonoBehaviour
         | from this example:
         | http://www.fmod.org/documentation/#content/generated/engine_new_unity/script_example_basic.html.      |
         =======================================================================================================*/
-        FMOD.Studio.EventInstance dialogueInstance = FMODUnity.RuntimeManager.CreateInstance(m_dialogueName);
+        FMOD.Studio.EventInstance dialogueInstance = FMODUnity.RuntimeManager.CreateInstance(m_dialogueRef);
 
         /*===============================================Fmod====================================================
         |   The reason why, in C#, that all the GCHandling and marshalling is used is because C# is a managed   |

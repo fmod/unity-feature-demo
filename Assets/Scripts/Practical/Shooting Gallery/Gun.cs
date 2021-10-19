@@ -22,8 +22,7 @@ public class Gun : MonoBehaviour
     /*===============================================FMOD====================================================
     |   Storing the shoot sound event name so we can use PlayOneShot.                                       |
     =======================================================================================================*/
-    [FMODUnity.EventRef]
-    public string m_eventRef;
+    public FMODUnity.EventReference m_gunRef;
 
     float m_elapsed;
     float m_glowElapsed;
@@ -61,7 +60,7 @@ public class Gun : MonoBehaviour
             |   This is how you play a oneshot sound quickly. Optionally a transform can be passed into this        |
             |   function.                                                                                           |
             =======================================================================================================*/
-            FMODUnity.RuntimeManager.PlayOneShot(m_eventRef);
+            FMODUnity.RuntimeManager.PlayOneShot(m_gunRef);
 
             GameObject obj = Instantiate(m_bullet) as GameObject;
             obj.transform.position = m_gunStart.position;

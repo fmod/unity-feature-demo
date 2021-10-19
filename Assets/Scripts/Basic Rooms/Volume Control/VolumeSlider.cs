@@ -13,8 +13,7 @@ using System.Collections;
 
 public class VolumeSlider : ActionObject
 {
-    [FMODUnity.EventRef]
-    public string m_eventPath;
+    public FMODUnity.EventReference m_eventRef;
     FMOD.Studio.EventInstance m_event;
 
     public Transform m_soundPosition;
@@ -29,7 +28,7 @@ public class VolumeSlider : ActionObject
         |   e.g. "event:/Basic Rooms/Footsteps".                                                                |
         |   This will simply create an instance of the event.                                                   |
         =======================================================================================================*/
-        m_event = FMODUnity.RuntimeManager.CreateInstance(m_eventPath);
+        m_event = FMODUnity.RuntimeManager.CreateInstance(m_eventRef);
         /*===============================================FMOD====================================================
         |   This will play the event.                                                                           |
         =======================================================================================================*/

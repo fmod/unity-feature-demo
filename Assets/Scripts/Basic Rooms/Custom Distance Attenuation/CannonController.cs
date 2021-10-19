@@ -16,8 +16,7 @@ public class CannonController : MonoBehaviour
     /*===============================================Fmod====================================================
     |   Store the cannon movement sound inside a string.                                                    |
     =======================================================================================================*/
-    [FMODUnity.EventRef]
-    public string m_cannonSoundPath;
+    public FMODUnity.EventReference m_cannonSoundRef;
     /*===============================================Fmod====================================================
     |   Store the cannonEvent that is created in Start().                                                   |
     =======================================================================================================*/
@@ -34,11 +33,11 @@ public class CannonController : MonoBehaviour
     /*===============================================Fmod====================================================
     |   Store the cannon Fire sound inside a string.                                                        |
     =======================================================================================================*/
-    [FMODUnity.EventRef]
     /*===============================================Fmod====================================================
     |   Store the cannonFireEvent that is created in Start().                                               |
     =======================================================================================================*/
-    public string m_cannonFireSound;
+    public FMODUnity.EventReference m_cannonFireRef;
+
     FMOD.Studio.EventInstance m_cannonFireEvent;
 
     public GameObject m_cannonBall;
@@ -57,7 +56,7 @@ public class CannonController : MonoBehaviour
         /*===============================================Fmod====================================================
         |  Create the event using the path stored.                                                              |
         =======================================================================================================*/
-        m_cannonEvent = FMODUnity.RuntimeManager.CreateInstance(m_cannonSoundPath);
+        m_cannonEvent = FMODUnity.RuntimeManager.CreateInstance(m_cannonSoundRef);
 
         /*===============================================Fmod====================================================
         |  Grab the parameters and store the IDs to use later.                                                  |
@@ -79,7 +78,7 @@ public class CannonController : MonoBehaviour
         /*===============================================Fmod====================================================
         |  Create the event using the path stored.                                                              |
         =======================================================================================================*/
-        m_cannonFireEvent = FMODUnity.RuntimeManager.CreateInstance(m_cannonFireSound);
+        m_cannonFireEvent = FMODUnity.RuntimeManager.CreateInstance(m_cannonFireRef);
 
         /*===============================================Fmod====================================================
         |  Set the 3D attributes. Or in other terms, tell which transform the event should follow.              |

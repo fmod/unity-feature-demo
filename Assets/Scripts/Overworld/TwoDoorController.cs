@@ -34,8 +34,7 @@ public class TwoDoorController : ActionObject
     /*===============================================Fmod====================================================
     |                              Event doors play when opening and closing.                               |
     =======================================================================================================*/
-    [FMODUnity.EventRef]
-    public string m_doorSound;
+    public FMODUnity.EventReference m_doorRef;
     [Range(0, 4)]    public float m_doorReverb = 0.4f;
 
     /*===============================================Fmod====================================================
@@ -73,12 +72,12 @@ public class TwoDoorController : ActionObject
 			Destroy (this);
         }
 
-        if (m_doorSound != "")
+        if (!m_doorRef.IsNull)
         {
             /*===============================================Fmod====================================================
             |             Create an instance, get the parameter IDs to control the "Reverb" and "Direction".        |
             =======================================================================================================*/
-            m_doorEvent = FMODUnity.RuntimeManager.CreateInstance(m_doorSound);
+            m_doorEvent = FMODUnity.RuntimeManager.CreateInstance(m_doorRef);
             m_doorEvent.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(transform));
 
             FMOD.Studio.EventDescription doorDesc;

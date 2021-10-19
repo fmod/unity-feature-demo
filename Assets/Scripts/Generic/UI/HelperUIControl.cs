@@ -31,11 +31,10 @@ public class HelperUIControl : ActionObject
 
     /*===============================================Fmod====================================================
     |           Variables for creating and storing events to play during the UI animations.                 |
-    |      Because there will only be once event playing at a time, we don't need 3 seperate events.        |
     =======================================================================================================*/
-    [FMODUnity.EventRef]    public string m_uiHover;
-    [FMODUnity.EventRef]    public string m_uiOpen;
-    [FMODUnity.EventRef]    public string m_uiClose;
+    public FMODUnity.EventReference m_uiHoverRef;
+    public FMODUnity.EventReference m_uiOpenRef;
+    public FMODUnity.EventReference m_uiCloseRef;
     FMOD.Studio.EventInstance m_currentEvent;
     
     bool m_updateFacing = false;                    // Bool to check if the player is close enough to actually billboard to.
@@ -114,7 +113,7 @@ public class HelperUIControl : ActionObject
         /*===============================================Fmod====================================================
         |                                   Create instance and start playing.                                   |
         =======================================================================================================*/
-        m_currentEvent = FMODUnity.RuntimeManager.CreateInstance(m_uiHover);
+        m_currentEvent = FMODUnity.RuntimeManager.CreateInstance(m_uiHoverRef);
         m_currentEvent.start();
         // Loop until the animation has played once.
         while (m_currentAnimationProgress < 0.95f)
@@ -144,7 +143,7 @@ public class HelperUIControl : ActionObject
         /*===============================================Fmod====================================================
         |                                   Create instance and start playing.                                   |
         =======================================================================================================*/
-        m_currentEvent = FMODUnity.RuntimeManager.CreateInstance(m_uiOpen);
+        m_currentEvent = FMODUnity.RuntimeManager.CreateInstance(m_uiOpenRef);
         m_currentEvent.start();
         
         // Play opening animation
@@ -201,7 +200,7 @@ public class HelperUIControl : ActionObject
                 /*===============================================Fmod====================================================
                 |                                      Create one shot instance.                                        |
                 =======================================================================================================*/
-                FMODUnity.RuntimeManager.PlayOneShot(m_uiClose, GetComponent<Transform>().position);
+                FMODUnity.RuntimeManager.PlayOneShot(m_uiCloseRef, GetComponent<Transform>().position);
                 while (m_uiAnimator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1)
                 {
                     yield return null;

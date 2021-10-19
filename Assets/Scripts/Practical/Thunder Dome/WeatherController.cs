@@ -16,18 +16,17 @@ public class WeatherController : MonoBehaviour
     public WindSlider m_windController;
     public RainSlider m_rainController;
     public SunController m_sunController;
-    /*===============================================FMOD====================================================
-    |   Call this to display it in Unity Inspector.                                                         |
-    =======================================================================================================*/
-    [FMODUnity.EventRef]
+
     /*===============================================FMOD====================================================
     |   Name of Event. Used in conjunction with EventInstance.                                              |
     =======================================================================================================*/
-    public string m_ambiencePath;
+    public FMODUnity.EventReference m_ambienceRef;
+
     /*===============================================FMOD====================================================
     |   EventInstance. Used to play or stop the sound, etc.                                                 |
     =======================================================================================================*/
     FMOD.Studio.EventInstance m_ambience;
+
     /*===============================================FMOD====================================================
     |   PARAMETER_ID - Used to reference a parameter stored in EventInstance. Example use case: changing    |
     |   from wood to carpet floor.                                                                          |
@@ -43,7 +42,7 @@ public class WeatherController : MonoBehaviour
         /*===============================================FMOD====================================================
         |   Calling this function will create an EventInstance. The return value is the created instance.       |
         =======================================================================================================*/
-        m_ambience = FMODUnity.RuntimeManager.CreateInstance(m_ambiencePath);
+        m_ambience = FMODUnity.RuntimeManager.CreateInstance(m_ambienceRef);
         /*===============================================FMOD====================================================
         |   Calling this function will start the EventInstance.                                                 |
         =======================================================================================================*/
