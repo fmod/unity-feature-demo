@@ -18,11 +18,10 @@ public class Target : MonoBehaviour
     /*===============================================FMOD====================================================
     |   Name of Event. Used in conjunction with EventInstance.                                              |
     =======================================================================================================*/
-    [FMODUnity.EventRef]
     /*===============================================FMOD====================================================
     |   Name of Event. Used in conjunction with EventInstance.                                              |
     =======================================================================================================*/
-    public string m_hitSoundPath;
+    public FMODUnity.EventReference m_hitSoundRef;
     /*===============================================FMOD====================================================
     |   EventInstance. Used to play or stop the sound, etc.                                                 |
     =======================================================================================================*/
@@ -45,7 +44,7 @@ public class Target : MonoBehaviour
         /*===============================================FMOD====================================================
         |   Calling this function will create an EventInstance. The return value is the created instance.       |
         =======================================================================================================*/
-        m_hitSound = FMODUnity.RuntimeManager.CreateInstance(m_hitSoundPath);
+        m_hitSound = FMODUnity.RuntimeManager.CreateInstance(m_hitSoundRef);
         m_hitSound.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject));
         /*===============================================FMOD====================================================
         |   Store the parameter ID for later use.                                                              |

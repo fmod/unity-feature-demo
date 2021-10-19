@@ -13,13 +13,9 @@ using System.Collections;
 public class LightningSound : MonoBehaviour
 {
     /*===============================================FMOD====================================================
-    |   Call this to display it in Unity Inspector.                                                         |
-    =======================================================================================================*/
-    [FMODUnity.EventRef]
-    /*===============================================FMOD====================================================
     |   Name of Event. Used in conjunction with EventInstance.                                              |
     =======================================================================================================*/
-    public string m_thunderPath;
+    public FMODUnity.EventReference m_thunderRef;
 
     public void Play(int a_thunder)
     {
@@ -32,7 +28,7 @@ public class LightningSound : MonoBehaviour
         /*===============================================FMOD====================================================
         |   Calling this function will create an EventInstance. The return value is the created instance.       |
         =======================================================================================================*/
-        m_thunderEvent = FMODUnity.RuntimeManager.CreateInstance(m_thunderPath);
+        m_thunderEvent = FMODUnity.RuntimeManager.CreateInstance(m_thunderRef);
 
         m_thunderEvent.setParameterByName("Thunder", a_thunder);
         m_thunderEvent.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(transform));

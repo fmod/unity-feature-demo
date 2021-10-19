@@ -170,7 +170,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d5154dabaa61264a8bb4b3740d7b2e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_footstepSurfaceName: event:/Overworld/Footsteps
+  m_footstepSurfaceName: 
+  m_footstepRef:
+    Guid:
+      Data1: 1814214941
+      Data2: 1199906722
+      Data3: 351196346
+      Data4: 79908276
+    Path: event:/Overworld/Footsteps
 --- !u!114 &11407042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -288,6 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
   ListenerNumber: 0
 --- !u!114 &11475310
 MonoBehaviour:
@@ -726,7 +734,7 @@ RectTransform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
@@ -893,7 +901,14 @@ MonoBehaviour:
   m_power: 10
   m_fireRate: 0.4
   m_glowDuration: 0.5
-  m_eventRef: event:/Shooting Gallery/Laser Gun single
+  m_eventRef: 
+  m_gunRef:
+    Guid:
+      Data1: 1131749177
+      Data2: 1121220672
+      Data3: -1569555044
+      Data4: -417063501
+    Path: event:/Shooting Gallery/Laser Gun single
 --- !u!1 &199914
 GameObject:
   m_ObjectHideFlags: 0
@@ -928,7 +943,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0.025726318}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0.025756836}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &22234854

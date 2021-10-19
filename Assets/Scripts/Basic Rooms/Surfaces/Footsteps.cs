@@ -13,27 +13,17 @@ using System.Collections;
 
 public class Footsteps : MonoBehaviour
 {
-    float m_currentParamValue;  /* carpet = 1.0f, grass = 2.0f, tile = 3.0f */
+    float m_currentParamValue = 0.0f;  /* carpet = 1.0f, grass = 2.0f, tile = 3.0f */
     float m_reverbValue;
 
     /*===============================================Fmod====================================================
     |   This piece of code will allow the string m_footstepSurfaceName to use the event browser to select   |
     |   the event, in the inspector.                                                                        |
     =======================================================================================================*/
-    [FMODUnity.EventRef]
     /*===============================================Fmod====================================================
     |   Name of Event. Used in conjunction with EventInstance.                                              |
     =======================================================================================================*/
-    public string m_footstepSurfaceName;
-    
-    void Start()
-    {
-        m_currentParamValue = 0.0f;
-    }
-    void Update()
-    {
-
-    }
+    public FMODUnity.EventReference m_footstepRef;
 
     public void PlayFootstep(bool a_isRunning)
     {
@@ -49,7 +39,7 @@ public class Footsteps : MonoBehaviour
             |   e.g. "event:/Basic Rooms/Footsteps".                                                                |
             |   This will simply create an instance.                                                                |
             =======================================================================================================*/
-            FMOD.Studio.EventInstance instance = FMODUnity.RuntimeManager.CreateInstance(m_footstepSurfaceName);
+            FMOD.Studio.EventInstance instance = FMODUnity.RuntimeManager.CreateInstance(m_footstepRef);
             /*===============================================Fmod====================================================
             |   The setParameterByName function takes in the name of the parameter, and the value to give it.       |
             |   Parameters can be used to change volumes, or to jump to sections in the sound.                      |

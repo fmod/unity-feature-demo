@@ -13,13 +13,9 @@ using System.Collections;
 public class SG_MainSpeaker : MonoBehaviour
 {
     /*===============================================FMOD====================================================
-    |   Call this to display the string in Unity Inspector with the FMOD Finder.                            |
-    =======================================================================================================*/
-    [FMODUnity.EventRef]
-    /*===============================================FMOD====================================================
     |   Name of Event. Used in conjunction with EventInstance.                                              |
     =======================================================================================================*/
-    public string m_musicPath;
+    public FMODUnity.EventReference m_musicRef;
     /*===============================================FMOD====================================================
     |   EventInstance. Used to play or stop the sound, etc.                                                 |
     =======================================================================================================*/
@@ -36,7 +32,7 @@ public class SG_MainSpeaker : MonoBehaviour
         /*===============================================FMOD====================================================
         |   Calling this function will create an EventInstance. The return value is the created instance.       |
         =======================================================================================================*/
-        m_music = FMODUnity.RuntimeManager.CreateInstance(m_musicPath);
+        m_music = FMODUnity.RuntimeManager.CreateInstance(m_musicRef);
         /*===============================================FMOD====================================================
         |   Store the parameter IDs for later use.                                                              |
         =======================================================================================================*/

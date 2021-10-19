@@ -20,8 +20,7 @@ public class ElevatorButton : ActionObject
     |   The quickest way to play a one shot sound is to just store the name and call the Runtime as         |
     |   demonstarted below.                                                                                 |
     =======================================================================================================*/
-    [FMODUnity.EventRef]
-    public string m_event;
+    public FMODUnity.EventReference m_eventRef;
 
     void Start()
     {
@@ -40,6 +39,6 @@ public class ElevatorButton : ActionObject
         |   You can play a oneshot sound using the RuntimeManager, it just needs the event name and an optional |
         |   position.                                                                                           |
         =======================================================================================================*/
-        FMODUnity.RuntimeManager.PlayOneShot(m_event, transform.position);
+        FMODUnity.RuntimeManager.PlayOneShot(m_eventRef, transform.position);
     }
 }

@@ -261,9 +261,30 @@ MonoBehaviour:
   m_uiLoadAnim: UI Prompt Load
   m_uiOpenAnim: UI Prompt Open
   m_uiCloseAnim: UI Prompt Close
-  m_uiHover: event:/Overworld/UI/Hover Cycle
-  m_uiOpen: event:/Overworld/UI/UI Open
-  m_uiClose: event:/Overworld/UI/UI Close
+  m_uiHover: 
+  m_uiHoverRef:
+    Guid:
+      Data1: -881369158
+      Data2: 1301849224
+      Data3: 334120324
+      Data4: -149765265
+    Path: event:/Overworld/UI/Hover Cycle
+  m_uiOpen: 
+  m_uiOpenRef:
+    Guid:
+      Data1: 21969954
+      Data2: 1195794644
+      Data3: -291596153
+      Data4: 1939823141
+    Path: event:/Overworld/UI/UI Open
+  m_uiClose: 
+  m_uiCloseRef:
+    Guid:
+      Data1: -1361015928
+      Data2: 1198370577
+      Data3: 1271587462
+      Data4: 90482171
+    Path: event:/Overworld/UI/UI Close
 --- !u!1 &151474
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,21 +15,21 @@ using System.Collections;
 
 public class PlayerHurt : MonoBehaviour
 {
-    [FMODUnity.EventRef]    public string m_event;      // Sound event to play after player falls down.
-    FMOD.Studio.EventInstance m_hurtEvent;              
+    public FMODUnity.EventReference m_eventRef;
+    FMOD.Studio.EventInstance m_hurtEvent;
+
     [SerializeField]    Transform m_resetPosition;      // Position to reset the player back to.
     float m_resetTimer = 4.0f;                          // Time before the play is reset to the catwalk, set to 4 seconds to match animation.
-    
+
 	void Start ()
     {
         //---------------------------------Fmod-------------------------------
         //           If the event has been set, create an instance.
         //--------------------------------------------------------------------
-        if (m_event != "")
+        if (!m_eventRef.IsNull)
         {
-            m_hurtEvent = FMODUnity.RuntimeManager.CreateInstance(m_event);
+            m_hurtEvent = FMODUnity.RuntimeManager.CreateInstance(m_eventRef);
         }
-        
 	}
 	
     /// <summary>
@@ -60,7 +60,7 @@ public class PlayerHurt : MonoBehaviour
         //---------------------------------Fmod-------------------------------
         //           If the event has been set, start the event.
         //--------------------------------------------------------------------
-        if (m_event != "")
+        if (!m_eventRef.IsNull)
             m_hurtEvent.start();
 
         // Wait for timer.
@@ -69,7 +69,7 @@ public class PlayerHurt : MonoBehaviour
         //---------------------------------Fmod-------------------------------
         //           If the event has been set, stop the event.
         //--------------------------------------------------------------------
-        if (m_event != "")
+        if (!m_eventRef.IsNull)
             m_hurtEvent.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
 
         // Reset players position.

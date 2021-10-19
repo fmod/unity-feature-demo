@@ -511,7 +511,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 2
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &59652469
@@ -944,7 +951,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Scatter Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &138351476
@@ -2103,7 +2117,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 2
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &315676139
@@ -2169,7 +2190,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Overworld/Room Atmos
+  EventReference:
+    Guid:
+      Data1: 826724635
+      Data2: 1205678469
+      Data3: -1830281575
+      Data4: -516063345
+    Path: event:/Overworld/Room Atmos
+  Event: 
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -2476,7 +2504,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 2
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &382823302
@@ -4462,7 +4497,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Sound Spin Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &581021716
@@ -5263,7 +5305,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Event Cone Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &641048028
@@ -5445,7 +5494,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: SoundVFX
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &654346342
@@ -5740,7 +5796,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Transceiver Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &702365065
@@ -6550,7 +6613,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Custom Distance Atten Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &763031740
@@ -6632,7 +6702,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Volume Control Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &782771052
@@ -6859,7 +6936,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Surfaces Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &790646194
@@ -7422,7 +7506,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: snapshot:/Closing Doors Snapshot
+  EventReference:
+    Guid:
+      Data1: 61865828
+      Data2: 1302281909
+      Data3: -2119007095
+      Data4: -204045938
+    Path: snapshot:/Closing Doors Snapshot
+  Event: 
   PlayEvent: 0
   StopEvent: 0
   AllowFadeout: 1
@@ -7498,7 +7589,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Player Parameter Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &834321918
@@ -8284,7 +8382,13 @@ MonoBehaviour:
   m_elevator: {fileID: 1498329022}
   m_floor: 0
   m_elevatorY: 1.459
-  m_buttonEvent: event:/Overworld/UI/Button Click 01
+  m_buttonRef:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!135 &954903105
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8604,7 +8708,13 @@ MonoBehaviour:
   m_elevator: {fileID: 1498329022}
   m_floor: 2
   m_elevatorY: 12.359
-  m_buttonEvent: event:/Overworld/UI/Button Click 01
+  m_buttonRef:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!135 &1000768419
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8903,7 +9013,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Shooting Gallery
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1027601308
@@ -9921,7 +10038,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 2
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1134729638
@@ -10236,7 +10360,13 @@ MonoBehaviour:
   m_elevator: {fileID: 1498329022}
   m_floor: 1
   m_elevatorY: 6.76
-  m_buttonEvent: event:/Overworld/UI/Button Click 01
+  m_buttonRef:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!135 &1142277558
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -12486,7 +12616,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Snapshot Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1353612386
@@ -13360,7 +13497,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Interactive Music Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1536430749
@@ -13562,7 +13706,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 2
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1556825168
@@ -13769,7 +13920,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Thunder Dome
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1596469997
@@ -14174,7 +14332,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Sound Module Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1664823924
@@ -15244,7 +15409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22492030, guid: 49b4d166a0222a749a3fb4cd62f330c7, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.000061035156
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22492030, guid: 49b4d166a0222a749a3fb4cd62f330c7, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -15870,7 +16035,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 2
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1877632451
@@ -16168,7 +16340,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Panner Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1919074342
@@ -16416,7 +16595,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Programmer Sounds Room
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 0.4
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1931255303
@@ -17700,7 +17886,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 2
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &1996429812
@@ -18774,7 +18967,14 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: event:/Overworld/Doors
+  m_doorSound: 
+  m_doorRef:
+    Guid:
+      Data1: -564163314
+      Data2: 1270382866
+      Data3: 1976224692
+      Data4: 129293214
+    Path: event:/Overworld/Doors
   m_doorReverb: 2
   m_doorCloseSnapshot: {fileID: 833634150}
 --- !u!135 &2139965553
