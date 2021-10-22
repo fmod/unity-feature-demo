@@ -3576,7 +3576,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &523531670
 Canvas:
   m_ObjectHideFlags: 0
@@ -11300,6 +11300,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
       objectReference: {fileID: 834321916}
+    - target: {fileID: 11467418, guid: 4a83245bc9ec66a41ac6ce77d7ac1594, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 11467418, guid: 4a83245bc9ec66a41ac6ce77d7ac1594, type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 11478376, guid: 4a83245bc9ec66a41ac6ce77d7ac1594, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
       value: 
