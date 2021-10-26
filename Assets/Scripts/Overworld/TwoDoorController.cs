@@ -244,7 +244,7 @@ public class TwoDoorController : ActionObject
             /*===============================================Fmod====================================================
             |                         Keep yielding the coroutine until the bank has loaded.                        |
             =======================================================================================================*/
-            while (FMODUnity.RuntimeManager.HaveAllBanksLoaded)
+            while (!FMODUnity.RuntimeManager.HaveAllBanksLoaded)
             {
                 yield return true;
             }
