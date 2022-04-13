@@ -1,7 +1,7 @@
 Welcome to this FMOD Feature Demo!
 ----------------------------------
 
-Compatible with Unity 2020.3.16f1 and FMOD 2.01.
+Tested with Unity 2021.2 and FMOD 2.02 on Windows, Mac, Linux.
 
 This project demonstrates a wide range of features found in FMOD and some examples of how you can utilize them in your own project.
 
@@ -22,7 +22,7 @@ Key tips while playing:
 
 - Options (Graphics Settings/Volume Controls) are available in the Main Menu.
 
-- Teleporting to each room is possible through the ESC Menu.
+- Teleporting to each room is possible through the Main Menu.
 
 - Floating FMOD logo's around the world will give you more information when activated by looking directly at them.
 
@@ -36,8 +36,8 @@ In every custom script containing FMOD, you will see this comment structure befo
   =======================================================================================================*/
 ```
 
-The FMOD Studio Project is included as "Fmod Demo Sounds.fspackage", which can be opened with any minor version of FMOD Studio 2.01.
+The FMOD Studio Project is included as "Fmod Demo Sounds.fspackage", which can be opened with any minor version of FMOD Studio 2.02.
 
 Feel free to use any and everything from this project in your own games!
 
-See the [Online documentation](https://fmod.com/resources/documentation-unity?version=2.01&page=welcome.html) for much more information.
+See the [Online documentation](https://fmod.com/resources/documentation-unity?version=2.02&page=welcome.html) for much more information.
