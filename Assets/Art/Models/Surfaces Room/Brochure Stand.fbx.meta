@@ -1,73 +1,165 @@
 fileFormatVersion: 2
 guid: e4349411c48de8d40b9476f1e882f3fb
-timeCreated: 1471920565
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: pCube112
-    100004: pCube113
-    100006: pCube114
-    100008: pCube115
-    100010: pCube116
-    100012: pCube117
-    100014: pCube118
-    100016: pCube119
-    100018: polySurface7
-    100020: polySurface8
-    100022: transform50
-    100024: transform51
-    100026: transform52
-    100028: transform53
-    100030: transform54
-    100032: transform55
-    100034: transform56
-    100036: transform57
-    100038: transform58
-    400000: //RootNode
-    400002: pCube112
-    400004: pCube113
-    400006: pCube114
-    400008: pCube115
-    400010: pCube116
-    400012: pCube117
-    400014: pCube118
-    400016: pCube119
-    400018: polySurface7
-    400020: polySurface8
-    400022: transform50
-    400024: transform51
-    400026: transform52
-    400028: transform53
-    400030: transform54
-    400032: transform55
-    400034: transform56
-    400036: transform57
-    400038: transform58
-    2300000: polySurface8
-    3300000: polySurface8
-    4300000: polySurface8
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: pCube112
+  - first:
+      1: 100004
+    second: pCube113
+  - first:
+      1: 100006
+    second: pCube114
+  - first:
+      1: 100008
+    second: pCube115
+  - first:
+      1: 100010
+    second: pCube116
+  - first:
+      1: 100012
+    second: pCube117
+  - first:
+      1: 100014
+    second: pCube118
+  - first:
+      1: 100016
+    second: pCube119
+  - first:
+      1: 100018
+    second: polySurface7
+  - first:
+      1: 100020
+    second: polySurface8
+  - first:
+      1: 100022
+    second: transform50
+  - first:
+      1: 100024
+    second: transform51
+  - first:
+      1: 100026
+    second: transform52
+  - first:
+      1: 100028
+    second: transform53
+  - first:
+      1: 100030
+    second: transform54
+  - first:
+      1: 100032
+    second: transform55
+  - first:
+      1: 100034
+    second: transform56
+  - first:
+      1: 100036
+    second: transform57
+  - first:
+      1: 100038
+    second: transform58
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: pCube112
+  - first:
+      4: 400004
+    second: pCube113
+  - first:
+      4: 400006
+    second: pCube114
+  - first:
+      4: 400008
+    second: pCube115
+  - first:
+      4: 400010
+    second: pCube116
+  - first:
+      4: 400012
+    second: pCube117
+  - first:
+      4: 400014
+    second: pCube118
+  - first:
+      4: 400016
+    second: pCube119
+  - first:
+      4: 400018
+    second: polySurface7
+  - first:
+      4: 400020
+    second: polySurface8
+  - first:
+      4: 400022
+    second: transform50
+  - first:
+      4: 400024
+    second: transform51
+  - first:
+      4: 400026
+    second: transform52
+  - first:
+      4: 400028
+    second: transform53
+  - first:
+      4: 400030
+    second: transform54
+  - first:
+      4: 400032
+    second: transform55
+  - first:
+      4: 400034
+    second: transform56
+  - first:
+      4: 400036
+    second: transform57
+  - first:
+      4: 400038
+    second: transform58
+  - first:
+      23: 2300000
+    second: polySurface8
+  - first:
+      33: 3300000
+    second: polySurface8
+  - first:
+      43: 4300000
+    second: polySurface8
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -75,25 +167,47 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -103,11 +217,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -56,6 +56,7 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -75,6 +76,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 0
     m_Colors:
-    - _Color: {r: 0.5649982, g: 0.9558824, b: 0.51308393, a: 0}
+    - _Color: {r: 0.5649982, g: 0.9558824, b: 0.51308393, a: 0.8755556}
     - _EmissionColor: {r: 0.64705884, g: 0.83935094, b: 1, a: 1}
     - _TintColor: {r: 0.36764705, g: 1, b: 0.45050716, a: 0.41597477}
+  m_BuildTextureStacks: []

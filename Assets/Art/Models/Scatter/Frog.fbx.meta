@@ -1,53 +1,98 @@
 fileFormatVersion: 2
 guid: f0659f0ae52566f459bf375b10ddd182
-timeCreated: 1474349876
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: Frog_Mesh
-    100004: Left_Foot
-    100006: Left_Leg
-    100008: main
-    100010: Right_Foot
-    100012: Right_Leg
-    400000: //RootNode
-    400002: Frog_Mesh
-    400004: Left_Foot
-    400006: Left_Leg
-    400008: main
-    400010: Right_Foot
-    400012: Right_Leg
-    4300000: Frog_Mesh
-    7400000: Take 001
-    7400002: Take 0010
-    9500000: //RootNode
-    13700000: Frog_Mesh
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Frog_Mesh
+  - first:
+      1: 100004
+    second: Left_Foot
+  - first:
+      1: 100006
+    second: Left_Leg
+  - first:
+      1: 100008
+    second: main
+  - first:
+      1: 100010
+    second: Right_Foot
+  - first:
+      1: 100012
+    second: Right_Leg
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Frog_Mesh
+  - first:
+      4: 400004
+    second: Left_Foot
+  - first:
+      4: 400006
+    second: Left_Leg
+  - first:
+      4: 400008
+    second: main
+  - first:
+      4: 400010
+    second: Right_Foot
+  - first:
+      4: 400012
+    second: Right_Leg
+  - first:
+      43: 4300000
+    second: Frog_Mesh
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      74: 7400002
+    second: Take 0010
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Frog_Mesh
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: Take 001
       takeName: Take 001
+      internalID: 0
       firstFrame: 1
       lastFrame: 55
       wrapMode: 0
@@ -90,6 +135,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Take 0010
       takeName: Take 001
+      internalID: 0
       firstFrame: 56
       lastFrame: 109.119995
       wrapMode: 0
@@ -135,25 +181,47 @@ ModelImporter:
     globalScale: 2
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -163,11 +231,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 2
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

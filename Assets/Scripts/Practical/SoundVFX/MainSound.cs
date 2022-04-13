@@ -100,6 +100,7 @@ public class MainSound : MonoBehaviour
 
     void OnDestroy()
     {
+        m_eventInstance.setCallback(null);
         m_eventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         m_eventInstance.release();
         m_timelineHandle.Free();

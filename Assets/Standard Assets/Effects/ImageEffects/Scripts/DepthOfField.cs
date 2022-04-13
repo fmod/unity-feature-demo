@@ -133,13 +133,11 @@ namespace UnityStandardAssets.ImageEffects
 
                 // "merge up" with background COC
                 dofHdrMaterial.SetTexture("_FgOverlap", temp2);
-                fromTo.MarkRestoreExpected(); // only touching alpha channel, RT restore expected
                 Graphics.Blit (fromTo, fromTo, dofHdrMaterial,  13);
                 RenderTexture.ReleaseTemporary(temp2);
             }
             else {
                 // capture full coc in alpha channel (fromTo is not read, but bound to detect screen flip)
-				fromTo.MarkRestoreExpected(); // only touching alpha channel, RT restore expected
                 Graphics.Blit (fromTo, fromTo, dofHdrMaterial,  0);
             }
         }

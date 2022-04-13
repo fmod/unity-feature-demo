@@ -18,9 +18,6 @@ public class Target : MonoBehaviour
     /*===============================================FMOD====================================================
     |   Name of Event. Used in conjunction with EventInstance.                                              |
     =======================================================================================================*/
-    /*===============================================FMOD====================================================
-    |   Name of Event. Used in conjunction with EventInstance.                                              |
-    =======================================================================================================*/
     public FMODUnity.EventReference m_hitSoundRef;
     /*===============================================FMOD====================================================
     |   EventInstance. Used to play or stop the sound, etc.                                                 |
@@ -52,7 +49,7 @@ public class Target : MonoBehaviour
         FMOD.Studio.EventDescription hitSoundDesc;
         m_hitSound.getDescription(out hitSoundDesc);
         FMOD.Studio.PARAMETER_DESCRIPTION paramDesc;
-        
+
         hitSoundDesc.getParameterDescriptionByName("Material", out paramDesc);
         m_hitMaterialID = paramDesc.id;
 
@@ -60,12 +57,13 @@ public class Target : MonoBehaviour
         |   This function is used to set the ParameterInstance value.                                           |
         =======================================================================================================*/
         m_hitSound.setParameterByID(m_hitMaterialID, m_material);
-
     }
+
     void Update()
     {
         Debug.DrawRay(transform.position, transform.forward, Color.red);
     }
+
     void OnCollisionEnter(Collision a_col)
     {
         if (a_col.gameObject.name.Contains("Laser"))

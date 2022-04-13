@@ -156,13 +156,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1556825166}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &28208419
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9516348, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -176,6 +177,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -199,6 +201,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -272,6 +275,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: -0.07499049, z: 0, w: 0.9971843}
   m_LocalPosition: {x: 0, y: 0, z: -6.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 406174032}
   m_RootOrder: 0
@@ -339,7 +343,7 @@ GameObject:
   - component: {fileID: 34674334}
   - component: {fileID: 34674333}
   - component: {fileID: 34674335}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -357,13 +361,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 763031738}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &34674332
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9586582, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -377,6 +382,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -400,6 +406,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -473,6 +480,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.3826858, z: 0, w: -0.9238786}
   m_LocalPosition: {x: -6.486, y: 1.191, z: -6.506}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1316410884}
   - {fileID: 1711553260}
@@ -511,7 +519,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -564,6 +571,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -14}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1187367768}
   m_RootOrder: 0
@@ -647,6 +655,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 8
@@ -720,6 +729,7 @@ Transform:
   m_LocalRotation: {x: 0.70710593, y: 0, z: 0, w: 0.7071076}
   m_LocalPosition: {x: 0, y: 11.428, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2004159964}
   m_RootOrder: 3
@@ -817,6 +827,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1134729636}
   m_RootOrder: 1
@@ -846,6 +857,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -896,7 +908,7 @@ GameObject:
   - component: {fileID: 138351474}
   - component: {fileID: 138351476}
   - component: {fileID: 138351475}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Scatter Door Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -913,6 +925,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.70710635, z: 0, w: 0.7071073}
   m_LocalPosition: {x: 0.017, y: 1.191, z: 9.171}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1537954055}
   - {fileID: 1225676503}
@@ -951,7 +964,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Scatter Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -1004,6 +1016,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.3826849, z: 0, w: -0.92387897}
   m_LocalPosition: {x: -6.3265047, y: 3.097, z: 6.3264637}
   m_LocalScale: {x: 234.4294, y: 89.55421, z: 6.334603}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1439042540}
   m_RootOrder: 0
@@ -1020,6 +1033,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1073,7 +1087,7 @@ GameObject:
   - component: {fileID: 174028391}
   - component: {fileID: 174028390}
   - component: {fileID: 174028393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1091,6 +1105,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 581021714}
   m_RootOrder: 1
@@ -1114,6 +1129,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1148,7 +1164,7 @@ MeshRenderer:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!95 &174028392
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9586830, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -1162,6 +1178,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1207,6 +1224,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: -0.07499049, z: 0, w: 0.9971843}
   m_LocalPosition: {x: 0, y: 0, z: -6.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 956335289}
   m_RootOrder: 0
@@ -1294,6 +1312,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.707106, z: 0, w: 0.7071076}
   m_LocalPosition: {x: 8.947, y: 3.097, z: 0.00001973146}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1991162560}
   m_RootOrder: 8
@@ -1310,6 +1329,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1380,6 +1400,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.92387974, z: 0, w: -0.38268307}
   m_LocalPosition: {x: 0, y: 0, z: -6.318053}
   m_LocalScale: {x: 0.0017394538, y: 0.0007553666, z: 0.0020691482}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 827227192}
   m_Father: {fileID: 1439042540}
@@ -1484,6 +1505,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.92387974, z: 0, w: -0.38268307}
   m_LocalPosition: {x: -6.3264775, y: 3.097, z: -6.326491}
   m_LocalScale: {x: 234.42932, y: 89.55421, z: 6.3346014}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1991162560}
   m_RootOrder: 3
@@ -1500,6 +1522,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -1569,6 +1592,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0.3826554, w: 0.9238912}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 13
@@ -1645,6 +1669,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.35143825, y: 0.35143825, z: 0.35143825}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 10
@@ -1724,6 +1749,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1628723003}
   - {fileID: 956335289}
@@ -1761,6 +1787,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 753541344}
   m_RootOrder: 0
@@ -1844,6 +1871,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 161.7, y: 57, z: 0}
   m_LocalScale: {x: 18.153545, y: 18.153545, z: 18.153545}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 11
@@ -1876,6 +1904,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -1944,6 +1973,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: -0.07499049, z: 0, w: 0.9971843}
   m_LocalPosition: {x: 0, y: 0, z: -5.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 646994374}
   m_RootOrder: 0
@@ -2047,6 +2077,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.02, y: 26.13, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
@@ -2079,6 +2110,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0.0000018179414}
   m_LocalPosition: {x: 9.18, y: 1.191, z: 0.008}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2133615519}
   - {fileID: 2127251273}
@@ -2117,7 +2149,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -2169,6 +2200,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1439042540}
   - {fileID: 1991162560}
@@ -2257,6 +2289,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2084417335}
   m_RootOrder: 0
@@ -2340,6 +2373,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071075, z: 0, w: -0.7071061}
   m_LocalPosition: {x: -8.947, y: 3.097, z: -0.00001973146}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1991162560}
   m_RootOrder: 6
@@ -2356,6 +2390,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2423,6 +2458,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 11.15, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1854672343}
   - {fileID: 2049755480}
@@ -2466,6 +2502,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.9238803, z: 0, w: -0.38268167}
   m_LocalPosition: {x: 6.481, y: 1.191, z: -6.483}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2102280776}
   - {fileID: 1013132464}
@@ -2504,7 +2541,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -2540,7 +2576,7 @@ GameObject:
   - component: {fileID: 389338789}
   - component: {fileID: 389338788}
   - component: {fileID: 389338787}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2558,6 +2594,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 834321919}
   m_RootOrder: 1
@@ -2587,6 +2624,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2716,6 +2754,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: -0.130526, z: 0, w: 0.9914449}
   m_LocalPosition: {x: 0, y: 0, z: 8.603}
   m_LocalScale: {x: 0.018587818, y: 0.018587815, z: 0.018587815}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 32432480}
   m_Father: {fileID: 1883031675}
@@ -2739,7 +2778,7 @@ GameObject:
   - component: {fileID: 406993833}
   - component: {fileID: 406993832}
   - component: {fileID: 406993831}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2757,6 +2796,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1596469995}
   m_RootOrder: 0
@@ -2786,6 +2826,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2855,6 +2896,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -12}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 907455646}
   m_RootOrder: 0
@@ -2921,7 +2963,7 @@ GameObject:
   - component: {fileID: 428969417}
   - component: {fileID: 428969416}
   - component: {fileID: 428969415}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2939,6 +2981,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1919074340}
   m_RootOrder: 1
@@ -2968,6 +3011,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3038,6 +3082,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.38268292, z: 0, w: 0.9238798}
   m_LocalPosition: {x: 0, y: 0, z: 6.318053}
   m_LocalScale: {x: 0.001739454, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2005733363}
   m_Father: {fileID: 378349618}
@@ -3136,12 +3181,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 107052, guid: a8b4846bae31d39468ccc2ef19e5189a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 107052, guid: a8b4846bae31d39468ccc2ef19e5189a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 107576, guid: a8b4846bae31d39468ccc2ef19e5189a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 116246, guid: a8b4846bae31d39468ccc2ef19e5189a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 116246, guid: a8b4846bae31d39468ccc2ef19e5189a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3278,6 +3331,10 @@ PrefabInstance:
     - target: {fileID: 188874, guid: a8b4846bae31d39468ccc2ef19e5189a, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 199774, guid: a8b4846bae31d39468ccc2ef19e5189a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 199774, guid: a8b4846bae31d39468ccc2ef19e5189a, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3483,6 +3540,7 @@ Transform:
   m_LocalRotation: {x: 0.70710593, y: 0, z: 0, w: 0.7071076}
   m_LocalPosition: {x: 0, y: 5.82, z: -0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2004159964}
   m_RootOrder: 2
@@ -3611,7 +3669,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &523531670
 Canvas:
   m_ObjectHideFlags: 0
@@ -3645,6 +3703,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.327}
   m_LocalScale: {x: 0.0024632413, y: 0.0024632416, z: 0.0024632416}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 618519441}
   - {fileID: 1199688535}
@@ -3717,6 +3776,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -24}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2084174725}
   m_RootOrder: 0
@@ -3784,7 +3844,7 @@ GameObject:
   - component: {fileID: 539656175}
   - component: {fileID: 539656174}
   - component: {fileID: 539656176}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3802,13 +3862,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1596469995}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &539656173
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9530764, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -3822,6 +3883,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -3845,6 +3907,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -3903,7 +3966,7 @@ GameObject:
   - component: {fileID: 542790075}
   - component: {fileID: 542790074}
   - component: {fileID: 542790073}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3921,6 +3984,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1536430747}
   m_RootOrder: 1
@@ -3950,6 +4014,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4002,7 +4067,7 @@ GameObject:
   - component: {fileID: 547556092}
   - component: {fileID: 547556091}
   - component: {fileID: 547556090}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4020,6 +4085,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1027601306}
   m_RootOrder: 0
@@ -4049,6 +4115,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4101,7 +4168,7 @@ GameObject:
   - component: {fileID: 555819392}
   - component: {fileID: 555819391}
   - component: {fileID: 555819390}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4119,6 +4186,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 782771050}
   m_RootOrder: 1
@@ -4148,6 +4216,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4217,6 +4286,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -23}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1611307062}
   m_RootOrder: 0
@@ -4300,6 +4370,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.38268292, z: 0, w: 0.9238798}
   m_LocalPosition: {x: 6.3264775, y: 3.097, z: 6.326491}
   m_LocalScale: {x: 234.42937, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 378349618}
   m_RootOrder: 4
@@ -4316,6 +4387,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4385,6 +4457,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 7
@@ -4442,7 +4515,7 @@ GameObject:
   - component: {fileID: 581021714}
   - component: {fileID: 581021716}
   - component: {fileID: 581021715}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Sound Spin Door Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4459,6 +4532,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.3826858, z: 0, w: -0.9238786}
   m_LocalPosition: {x: -6.486, y: 1.191, z: -6.506}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 915044148}
   - {fileID: 174028389}
@@ -4497,7 +4571,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Sound Spin Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -4552,13 +4625,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1877632449}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &588557788
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9596040, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -4572,6 +4646,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -4595,6 +4670,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -4647,7 +4723,7 @@ LightingSettings:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Settings.lighting
-  serializedVersion: 3
+  serializedVersion: 4
   m_GIWorkflowMode: 1
   m_EnableBakedLightmaps: 0
   m_EnableRealtimeLightmaps: 0
@@ -4660,7 +4736,7 @@ LightingSettings:
   m_LightmapMaxSize: 256
   m_BakeResolution: 40
   m_Padding: 2
-  m_TextureCompression: 1
+  m_LightmapCompression: 2
   m_AO: 1
   m_AOMaxDistance: 1
   m_CompAOExponent: 0.56
@@ -4701,6 +4777,7 @@ LightingSettings:
   m_PVRFilteringAtrousPositionSigmaDirect: 0.5
   m_PVRFilteringAtrousPositionSigmaIndirect: 2
   m_PVRFilteringAtrousPositionSigmaAO: 1
+  m_PVRTiledBaking: 0
 --- !u!1 &610300150
 GameObject:
   m_ObjectHideFlags: 0
@@ -4727,6 +4804,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1996429810}
   - {fileID: 1027601306}
@@ -4768,6 +4846,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 29.72827, y: 29.72831, z: 29.72831}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 0
@@ -4797,6 +4876,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -4850,7 +4930,7 @@ GameObject:
   - component: {fileID: 618953071}
   - component: {fileID: 618953070}
   - component: {fileID: 618953069}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4868,6 +4948,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1353612384}
   m_RootOrder: 0
@@ -4897,6 +4978,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5026,6 +5108,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.21058072, z: 0, w: 0.9775765}
   m_LocalPosition: {x: 0, y: 0, z: 8.248}
   m_LocalScale: {x: 0.01858782, y: 0.018587815, z: 0.018587815}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2021217261}
   m_Father: {fileID: 1883031675}
@@ -5066,6 +5149,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1032175834}
   m_RootOrder: 0
@@ -5151,13 +5235,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1134729636}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &627392434
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9545612, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -5171,6 +5256,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -5194,6 +5280,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5250,7 +5337,7 @@ GameObject:
   - component: {fileID: 641048026}
   - component: {fileID: 641048028}
   - component: {fileID: 641048027}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Event Cone Door Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5267,6 +5354,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.38268292, z: 0, w: 0.9238798}
   m_LocalPosition: {x: -6.509, y: 1.203, z: 6.472}
   m_LocalScale: {x: 0.39999992, y: 2.2, z: 1.7499998}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1091987271}
   - {fileID: 1055278982}
@@ -5305,7 +5393,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Event Cone Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -5418,6 +5505,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: -0.130526, z: 0, w: 0.9914449}
   m_LocalPosition: {x: 0, y: 0, z: 8.603}
   m_LocalScale: {x: 0.018587818, y: 0.018587815, z: 0.018587815}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 280604967}
   m_Father: {fileID: 882063416}
@@ -5456,6 +5544,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.70710635, z: 0, w: 0.7071073}
   m_LocalPosition: {x: 0.017, y: 1.191, z: 9.171}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1016581859}
   - {fileID: 1527734304}
@@ -5494,7 +5583,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: SoundVFX
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -5549,13 +5637,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2139965551}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &687206615
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9536054, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -5569,6 +5658,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -5592,6 +5682,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5666,6 +5757,7 @@ RectTransform:
   m_LocalRotation: {x: -0.000008726647, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0.00053230964}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1347480384}
   m_RootOrder: 13
@@ -5758,6 +5850,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.9238791, z: 0, w: 0.3826846}
   m_LocalPosition: {x: 6.478, y: 1.191, z: 6.504}
   m_LocalScale: {x: 0.39999995, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 740299086}
   - {fileID: 929920274}
@@ -5796,7 +5889,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Transceiver Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -5850,6 +5942,7 @@ Transform:
   m_LocalRotation: {x: 0.7195386, y: 0, z: 0, w: -0.69445246}
   m_LocalPosition: {x: -76, y: -92, z: 1114}
   m_LocalScale: {x: 84.186874, y: 12.615106, z: 77.20477}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 17
@@ -5866,6 +5959,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -5950,6 +6044,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 4
@@ -6026,6 +6121,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -23}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1134259426}
   m_RootOrder: 0
@@ -6093,7 +6189,7 @@ GameObject:
   - component: {fileID: 740299089}
   - component: {fileID: 740299088}
   - component: {fileID: 740299090}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6111,13 +6207,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 702365063}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &740299087
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9587252, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -6131,6 +6228,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -6154,6 +6252,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6225,6 +6324,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 782771050}
   - {fileID: 1931255301}
@@ -6267,6 +6367,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3.097, z: 8.947}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 378349618}
   m_RootOrder: 9
@@ -6283,6 +6384,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6353,6 +6455,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.707106, z: 0, w: 0.7071076}
   m_LocalPosition: {x: 0, y: 0, z: 0.0050856117}
   m_LocalScale: {x: 0.0017394541, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 261537033}
   m_Father: {fileID: 1991162560}
@@ -6441,7 +6544,7 @@ GameObject:
   - component: {fileID: 756417917}
   - component: {fileID: 756417916}
   - component: {fileID: 756417918}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6459,13 +6562,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1931255301}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &756417915
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9546846, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -6479,6 +6583,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -6502,6 +6607,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -6558,7 +6664,7 @@ GameObject:
   - component: {fileID: 763031738}
   - component: {fileID: 763031740}
   - component: {fileID: 763031739}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Custom Distance Door Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6575,6 +6681,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.9238791, z: 0, w: 0.3826846}
   m_LocalPosition: {x: 6.478, y: 1.191, z: 6.504}
   m_LocalScale: {x: 0.39999995, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1054075559}
   - {fileID: 34674331}
@@ -6613,7 +6720,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Custom Distance Atten Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -6664,6 +6770,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.188, y: 1.1890001, z: -0.023}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1705899018}
   - {fileID: 555819389}
@@ -6702,7 +6809,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Volume Control Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -6732,6 +6838,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1150258542}
     m_Modifications:
+    - target: {fileID: 100000, guid: c4186c396a03908488f1ad5ca65b290c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c4186c396a03908488f1ad5ca65b290c, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -6817,6 +6927,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.35143825, y: 0.35143825, z: 0.35143825}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 6
@@ -6881,7 +6992,7 @@ GameObject:
   - component: {fileID: 790646192}
   - component: {fileID: 790646194}
   - component: {fileID: 790646193}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Surfaces Door Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6898,6 +7009,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.9238803, z: 0, w: -0.38268167}
   m_LocalPosition: {x: 6.481, y: 1.191, z: -6.483}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1914007280}
   - {fileID: 1425949221}
@@ -6936,7 +7048,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Surfaces Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -6985,6 +7096,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.028420502, z: 0, w: 0.99959606}
   m_LocalPosition: {x: -0.0007266416, y: -2.13, z: -0.00036805868}
   m_LocalScale: {x: 0.99, y: 1, z: 0.99}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1883031675}
   m_RootOrder: 1
@@ -7079,6 +7191,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.21058072, z: 0, w: 0.9775765}
   m_LocalPosition: {x: 0, y: 0, z: 8.248}
   m_LocalScale: {x: 0.01858782, y: 0.018587815, z: 0.018587815}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1846475149}
   m_Father: {fileID: 882063416}
@@ -7102,7 +7215,7 @@ GameObject:
   - component: {fileID: 809860439}
   - component: {fileID: 809860438}
   - component: {fileID: 809860437}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7120,6 +7233,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1664823922}
   m_RootOrder: 0
@@ -7149,6 +7263,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7218,6 +7333,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 240630940}
   m_RootOrder: 0
@@ -7301,6 +7417,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.38268292, z: 0, w: 0.9238798}
   m_LocalPosition: {x: 6.3264775, y: 3.097, z: 6.326491}
   m_LocalScale: {x: 234.42937, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1439042540}
   m_RootOrder: 6
@@ -7317,6 +7434,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7388,13 +7506,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1996429810}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &830638756
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9542922, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -7408,6 +7527,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -7431,6 +7551,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7535,6 +7656,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 319969604}
   m_RootOrder: 3
@@ -7550,7 +7672,7 @@ GameObject:
   - component: {fileID: 834321919}
   - component: {fileID: 834321918}
   - component: {fileID: 834321917}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Player Parameters Door Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7589,7 +7711,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Player Parameter Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -7622,6 +7743,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.188, y: 1.189, z: -0.023}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1389728389}
   - {fileID: 389338786}
@@ -7670,6 +7792,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
   m_LocalPosition: {x: -0, y: 3.097, z: -8.947}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 378349618}
   m_RootOrder: 8
@@ -7686,6 +7809,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7751,6 +7875,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 11.21, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 610300151}
   - {fileID: 1669675734}
@@ -7790,6 +7915,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.7071075, z: 0, w: -0.7071061}
   m_LocalPosition: {x: 0, y: 0, z: -0.0050856117}
   m_LocalScale: {x: 0.0017394541, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 416772560}
   m_Father: {fileID: 1439042540}
@@ -7877,7 +8003,7 @@ GameObject:
   - component: {fileID: 915044151}
   - component: {fileID: 915044150}
   - component: {fileID: 915044149}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7895,6 +8021,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 581021714}
   m_RootOrder: 0
@@ -7924,6 +8051,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -7994,6 +8122,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1877632449}
   m_RootOrder: 1
@@ -8023,6 +8152,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8075,7 +8205,7 @@ GameObject:
   - component: {fileID: 929920277}
   - component: {fileID: 929920276}
   - component: {fileID: 929920275}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8093,6 +8223,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 702365063}
   m_RootOrder: 1
@@ -8122,6 +8253,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8192,6 +8324,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2139965551}
   m_RootOrder: 1
@@ -8221,6 +8354,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8290,6 +8424,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071075, z: 0, w: -0.7071061}
   m_LocalPosition: {x: -8.947, y: 3.097, z: -0.00001973146}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1439042540}
   m_RootOrder: 7
@@ -8306,6 +8441,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8384,11 +8520,11 @@ MonoBehaviour:
   m_elevatorY: 1.459
   m_buttonRef:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1893337896
+      Data2: 1273723249
+      Data3: -1364347737
+      Data4: 1695724016
+    Path: event:/Overworld/UI/Button Click 01
 --- !u!135 &954903105
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8504,6 +8640,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: -0.130526, z: 0, w: 0.9914449}
   m_LocalPosition: {x: 0, y: 0, z: 8.603}
   m_LocalScale: {x: 0.018587818, y: 0.018587815, z: 0.018587815}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 198465099}
   m_Father: {fileID: 260883664}
@@ -8542,6 +8679,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -3.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1295215226}
   m_RootOrder: 0
@@ -8603,6 +8741,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c4186c396a03908488f1ad5ca65b290c, type: 3}
       propertyPath: m_Name
       value: Button_Stop (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c4186c396a03908488f1ad5ca65b290c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c4186c396a03908488f1ad5ca65b290c, type: 3}
       propertyPath: m_RootOrder
@@ -8710,11 +8852,11 @@ MonoBehaviour:
   m_elevatorY: 12.359
   m_buttonRef:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1893337896
+      Data2: 1273723249
+      Data3: -1364347737
+      Data4: 1695724016
+    Path: event:/Overworld/UI/Button Click 01
 --- !u!135 &1000768419
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8760,13 +8902,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 382823300}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1013132465
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9522422, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -8780,6 +8923,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -8803,6 +8947,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8861,7 +9006,7 @@ GameObject:
   - component: {fileID: 1016581862}
   - component: {fileID: 1016581861}
   - component: {fileID: 1016581860}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8879,6 +9024,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 654346340}
   m_RootOrder: 0
@@ -8908,6 +9054,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -8975,6 +9122,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.38268292, z: 0, w: 0.9238798}
   m_LocalPosition: {x: -6.509, y: 1.2030001, z: 6.472}
   m_LocalScale: {x: 0.39999992, y: 2.2, z: 1.7499998}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 547556089}
   - {fileID: 1133575707}
@@ -9013,7 +9161,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Shooting Gallery
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -9067,6 +9214,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 8.93}
   m_LocalScale: {x: 0.0017394541, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 627137777}
   m_Father: {fileID: 1439042540}
@@ -9171,6 +9319,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.35143825, y: 0.35143825, z: 0.35143825}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 5
@@ -9237,7 +9386,7 @@ GameObject:
   - component: {fileID: 1054075562}
   - component: {fileID: 1054075561}
   - component: {fileID: 1054075560}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9255,6 +9404,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 763031738}
   m_RootOrder: 0
@@ -9284,6 +9434,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9336,7 +9487,7 @@ GameObject:
   - component: {fileID: 1055278985}
   - component: {fileID: 1055278984}
   - component: {fileID: 1055278983}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9354,6 +9505,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 641048026}
   m_RootOrder: 1
@@ -9383,6 +9535,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9436,7 +9589,7 @@ GameObject:
   - component: {fileID: 1077751066}
   - component: {fileID: 1077751065}
   - component: {fileID: 1077751067}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9454,13 +9607,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1919074340}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1077751064
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9560976, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -9474,6 +9628,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -9497,6 +9652,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9572,6 +9728,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.92387974, z: 0, w: -0.38268307}
   m_LocalPosition: {x: -6.3264775, y: 3.097, z: -6.326491}
   m_LocalScale: {x: 234.42932, y: 89.55421, z: 6.3346014}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1439042540}
   m_RootOrder: 4
@@ -9588,6 +9745,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9641,7 +9799,7 @@ GameObject:
   - component: {fileID: 1091987274}
   - component: {fileID: 1091987273}
   - component: {fileID: 1091987275}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9659,13 +9817,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 641048026}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1091987272
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9581322, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -9679,6 +9838,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -9702,6 +9862,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9761,7 +9922,7 @@ GameObject:
   - component: {fileID: 1133575710}
   - component: {fileID: 1133575709}
   - component: {fileID: 1133575711}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9779,13 +9940,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1027601306}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1133575708
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9571322, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -9799,6 +9961,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -9822,6 +9985,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -9898,6 +10062,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.3826849, z: 0, w: -0.92387897}
   m_LocalPosition: {x: 0, y: 0, z: 6.3108554}
   m_LocalScale: {x: 0.0017394542, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 733942911}
   m_Father: {fileID: 1991162560}
@@ -10000,6 +10165,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.9238803, z: 0, w: -0.38268167}
   m_LocalPosition: {x: 6.481, y: 1.191, z: -6.483}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 627392433}
   - {fileID: 99632420}
@@ -10038,7 +10204,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -10092,6 +10257,7 @@ Transform:
   m_LocalRotation: {x: 0.7195386, y: 0, z: 0, w: -0.69445246}
   m_LocalPosition: {x: -76, y: -92, z: 1114}
   m_LocalScale: {x: 84.186874, y: 12.615106, z: 77.20477}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 15
@@ -10108,6 +10274,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10192,6 +10359,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.17767194, y: 0.17767194, z: 0.17767194}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 12
@@ -10255,6 +10423,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: c4186c396a03908488f1ad5ca65b290c, type: 3}
       propertyPath: m_Name
       value: Button_Stop (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: c4186c396a03908488f1ad5ca65b290c, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c4186c396a03908488f1ad5ca65b290c, type: 3}
       propertyPath: m_RootOrder
@@ -10362,11 +10534,11 @@ MonoBehaviour:
   m_elevatorY: 6.76
   m_buttonRef:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1893337896
+      Data2: 1273723249
+      Data3: -1364347737
+      Data4: 1695724016
+    Path: event:/Overworld/UI/Button Click 01
 --- !u!135 &1142277558
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -10406,6 +10578,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0.31296226, z: -0, w: 0.9497656}
   m_LocalPosition: {x: -0.5972, y: 1.5494, z: 0.82638}
   m_LocalScale: {x: 1, y: 1, z: 3.6069624}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 954903107}
   - {fileID: 1142277554}
@@ -10443,6 +10616,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 24.865864, y: 24.865864, z: 24.865864}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 3
@@ -10520,6 +10694,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.92387897, z: 0, w: 0.382685}
   m_LocalPosition: {x: 0, y: 0, z: -6.3108554}
   m_LocalScale: {x: 0.0017394535, y: 0.0007553666, z: 0.0020691482}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 69775394}
   m_Father: {fileID: 1439042540}
@@ -10623,6 +10798,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -173, y: -5, z: 0}
   m_LocalScale: {x: 29.72827, y: 29.72831, z: 29.72831}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 1
@@ -10639,6 +10815,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -10693,7 +10870,7 @@ GameObject:
   - component: {fileID: 1202740176}
   - component: {fileID: 1202740175}
   - component: {fileID: 1202740178}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10711,6 +10888,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1353612384}
   m_RootOrder: 1
@@ -10734,6 +10912,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10768,7 +10947,7 @@ MeshRenderer:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!95 &1202740177
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9587252, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -10782,6 +10961,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -10829,6 +11009,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
   m_LocalPosition: {x: -0, y: 3.097, z: -8.947}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1991162560}
   m_RootOrder: 10
@@ -10845,6 +11026,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10898,7 +11080,7 @@ GameObject:
   - component: {fileID: 1212512841}
   - component: {fileID: 1212512840}
   - component: {fileID: 1212512843}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10916,6 +11098,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1664823922}
   m_RootOrder: 1
@@ -10939,6 +11122,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -10973,7 +11157,7 @@ MeshRenderer:
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!95 &1212512842
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9587252, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -10987,6 +11171,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -11017,7 +11202,7 @@ GameObject:
   - component: {fileID: 1225676506}
   - component: {fileID: 1225676505}
   - component: {fileID: 1225676504}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11035,6 +11220,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 138351474}
   m_RootOrder: 1
@@ -11064,6 +11250,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11116,7 +11303,7 @@ GameObject:
   - component: {fileID: 1227670028}
   - component: {fileID: 1227670027}
   - component: {fileID: 1227670026}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11134,6 +11321,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1931255301}
   m_RootOrder: 1
@@ -11163,6 +11351,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11233,6 +11422,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.38268292, z: 0, w: 0.9238798}
   m_LocalPosition: {x: 0, y: 0, z: 6.258}
   m_LocalScale: {x: 0.0017394541, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1606954220}
   m_Father: {fileID: 1439042540}
@@ -11822,6 +12012,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.707106, z: 0, w: 0.7071076}
   m_LocalPosition: {x: 8.947, y: 3.097, z: 0.00001973146}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 378349618}
   m_RootOrder: 7
@@ -11838,6 +12029,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11907,6 +12099,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.3826849, z: 0, w: -0.92387897}
   m_LocalPosition: {x: -6.3265047, y: 3.097, z: 6.3264637}
   m_LocalScale: {x: 234.4294, y: 89.55421, z: 6.334603}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1991162560}
   m_RootOrder: 0
@@ -11923,6 +12116,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -11989,6 +12183,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -51}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 19
@@ -12085,6 +12280,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.92387897, z: 0, w: 0.382685}
   m_LocalPosition: {x: 6.3265047, y: 3.097, z: -6.3264637}
   m_LocalScale: {x: 234.42929, y: 89.55421, z: 6.3346004}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 378349618}
   m_RootOrder: 2
@@ -12101,6 +12297,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12230,6 +12427,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.21058072, z: 0, w: 0.9775765}
   m_LocalPosition: {x: 0, y: 0, z: 8.248}
   m_LocalScale: {x: 0.01858782, y: 0.018587815, z: 0.018587815}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1000447639}
   m_Father: {fileID: 260883664}
@@ -12270,6 +12468,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
   m_LocalPosition: {x: -0, y: 3.097, z: -8.947}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1439042540}
   m_RootOrder: 10
@@ -12286,6 +12485,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12356,6 +12556,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 59652467}
   m_RootOrder: 0
@@ -12385,6 +12586,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12438,7 +12640,7 @@ GameObject:
   - component: {fileID: 1321132041}
   - component: {fileID: 1321132040}
   - component: {fileID: 1321132042}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12456,13 +12658,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1536430747}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1321132039
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9586830, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -12476,6 +12679,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -12499,6 +12703,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12578,6 +12783,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0.0000018179414}
   m_LocalPosition: {x: 9.18, y: 1.191, z: 0.008}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 618953068}
   - {fileID: 1202740174}
@@ -12616,7 +12822,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Snapshot Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -12669,6 +12874,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -27}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1808706769}
   m_RootOrder: 0
@@ -12736,7 +12942,7 @@ GameObject:
   - component: {fileID: 1389728392}
   - component: {fileID: 1389728391}
   - component: {fileID: 1389728393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12754,13 +12960,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 834321919}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1389728390
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9529054, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -12774,6 +12981,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -12797,6 +13005,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12856,7 +13065,7 @@ GameObject:
   - component: {fileID: 1425949224}
   - component: {fileID: 1425949223}
   - component: {fileID: 1425949225}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12874,13 +13083,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 790646192}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1425949222
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9508424, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -12894,6 +13104,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -12917,6 +13128,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -12990,6 +13202,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 142436369}
   - {fileID: 1611307062}
@@ -13040,6 +13253,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -12}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2049755480}
   m_RootOrder: 0
@@ -13124,6 +13338,7 @@ Transform:
   m_LocalRotation: {x: 0.7195386, y: 0, z: 0, w: -0.69445246}
   m_LocalPosition: {x: -76, y: -92, z: 1114}
   m_LocalScale: {x: 84.186874, y: 12.615106, z: 77.20477}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 18
@@ -13140,6 +13355,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -13224,6 +13440,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.92387974, z: 0, w: -0.38268307}
   m_LocalPosition: {x: -6.3264775, y: 3.097, z: -6.326491}
   m_LocalScale: {x: 234.42932, y: 89.55421, z: 6.3346014}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 378349618}
   m_RootOrder: 3
@@ -13240,6 +13457,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -13305,7 +13523,7 @@ GameObject:
   - component: {fileID: 1527734307}
   - component: {fileID: 1527734306}
   - component: {fileID: 1527734308}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13323,13 +13541,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 654346340}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1527734305
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9589428, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -13343,6 +13562,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -13366,6 +13586,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -13442,7 +13663,7 @@ GameObject:
   - component: {fileID: 1536430747}
   - component: {fileID: 1536430749}
   - component: {fileID: 1536430748}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Interactive Music Door Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13459,6 +13680,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.70710856, z: 0, w: -0.7071051}
   m_LocalPosition: {x: -0.001, y: 1.191, z: -9.187}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1321132038}
   - {fileID: 542790072}
@@ -13497,7 +13719,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Interactive Music Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -13534,7 +13755,7 @@ GameObject:
   - component: {fileID: 1537954058}
   - component: {fileID: 1537954057}
   - component: {fileID: 1537954059}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13552,13 +13773,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 138351474}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1537954056
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9569994, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -13572,6 +13794,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -13595,6 +13818,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -13668,6 +13892,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.70710856, z: 0, w: -0.7071051}
   m_LocalPosition: {x: -0.001, y: 1.191, z: -9.187}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1991963136}
   - {fileID: 28208418}
@@ -13706,7 +13931,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -13760,6 +13984,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
   m_LocalPosition: {x: 0, y: 0, z: -8.93}
   m_LocalScale: {x: 0.0017394541, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1903059724}
   m_Father: {fileID: 1439042540}
@@ -13882,6 +14107,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.9238791, z: 0, w: 0.3826846}
   m_LocalPosition: {x: 6.478, y: 1.191, z: 6.504}
   m_LocalScale: {x: 0.39999995, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 406993830}
   - {fileID: 539656172}
@@ -13920,7 +14146,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Thunder Dome
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -13973,6 +14198,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071075, z: 0, w: -0.7071061}
   m_LocalPosition: {x: -8.947, y: 3.097, z: -0.00001973146}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 378349618}
   m_RootOrder: 6
@@ -13989,6 +14215,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14058,6 +14285,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -50}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1229440530}
   m_RootOrder: 0
@@ -14142,6 +14370,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.3826849, z: 0, w: -0.92387897}
   m_LocalPosition: {x: 0, y: 0, z: 6.3108554}
   m_LocalScale: {x: 0.0017394542, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 560106881}
   m_Father: {fileID: 1439042540}
@@ -14242,6 +14471,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 834321919}
   - {fileID: 641048026}
@@ -14294,6 +14524,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.70710635, z: 0, w: 0.7071073}
   m_LocalPosition: {x: 0.017, y: 1.191, z: 9.171}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 809860436}
   - {fileID: 1212512839}
@@ -14332,7 +14563,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Sound Module Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -14381,6 +14611,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.028420502, z: 0, w: 0.99959606}
   m_LocalPosition: {x: -0.0007266416, y: -2.13, z: -0.00036805868}
   m_LocalScale: {x: 0.99, y: 1, z: 0.99}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 882063416}
   m_RootOrder: 1
@@ -14474,6 +14705,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071067}
   m_LocalPosition: {x: 0, y: 37.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2004159964}
   m_RootOrder: 0
@@ -14508,6 +14740,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.92387897, z: 0, w: 0.382685}
   m_LocalPosition: {x: 6.3265047, y: 3.097, z: -6.3264637}
   m_LocalScale: {x: 234.42929, y: 89.55421, z: 6.3346004}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1991162560}
   m_RootOrder: 2
@@ -14524,6 +14757,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14577,7 +14811,7 @@ GameObject:
   - component: {fileID: 1705899021}
   - component: {fileID: 1705899020}
   - component: {fileID: 1705899022}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Bot (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14595,13 +14829,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 782771050}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1705899019
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9545786, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -14615,6 +14850,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -14638,6 +14874,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14715,13 +14952,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 59652467}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1711553261
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9574984, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -14735,6 +14973,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -14758,6 +14997,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14833,6 +15073,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -14895,6 +15136,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.050038, y: 0.18327093, z: -0.289}
   m_LocalScale: {x: 0.3593101, y: 0.35931012, z: 0.35931012}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -14929,6 +15171,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.707106, z: 0, w: 0.7071076}
   m_LocalPosition: {x: 8.947, y: 3.097, z: 0.00001973146}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1439042540}
   m_RootOrder: 9
@@ -14945,6 +15188,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -15014,6 +15258,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -20}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1964753218}
   m_RootOrder: 0
@@ -15096,6 +15341,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -140, y: 76, z: 0}
   m_LocalScale: {x: 29.72827, y: 29.72831, z: 29.72831}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 2
@@ -15112,6 +15358,7 @@ SpriteRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -15207,6 +15454,10 @@ PrefabInstance:
       propertyPath: m_pressKeyText
       value: 
       objectReference: {fileID: 839815660}
+    - target: {fileID: 11414738, guid: 49b4d166a0222a749a3fb4cd62f330c7, type: 3}
+      propertyPath: m_selectDistance
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 11414738, guid: 49b4d166a0222a749a3fb4cd62f330c7, type: 3}
       propertyPath: mouseAction.m_Id
       value: 38eec7fc-a347-46c9-8745-1c732b6ed724
@@ -15448,6 +15699,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.38268292, z: 0, w: 0.9238798}
   m_LocalPosition: {x: 0, y: 0, z: 6.318053}
   m_LocalScale: {x: 0.001739454, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1810937498}
   m_Father: {fileID: 1991162560}
@@ -15553,6 +15805,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.7071075, z: 0, w: -0.7071061}
   m_LocalPosition: {x: 0, y: 0, z: -0.0050856117}
   m_LocalScale: {x: 0.0017394541, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1368007957}
   m_Father: {fileID: 1991162560}
@@ -15657,6 +15910,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -60}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1800572023}
   m_RootOrder: 0
@@ -15737,6 +15991,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -0.0000000051787348, y: 37.14, z: 4.5474735e-12}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2004159964}
   m_RootOrder: 1
@@ -15831,6 +16086,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -2.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 808912487}
   m_RootOrder: 0
@@ -15914,6 +16170,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.3826849, z: 0, w: -0.92387897}
   m_LocalPosition: {x: -6.3265047, y: 3.097, z: 6.3264637}
   m_LocalScale: {x: 234.4294, y: 89.55421, z: 6.334603}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 378349618}
   m_RootOrder: 0
@@ -15930,6 +16187,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -15997,6 +16255,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.3826858, z: 0, w: -0.9238786}
   m_LocalPosition: {x: -6.486, y: 1.191, z: -6.506}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 588557787}
   - {fileID: 924577743}
@@ -16035,7 +16294,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -16084,6 +16342,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 5.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 746113998}
   - {fileID: 795437389}
@@ -16122,6 +16381,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -33}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1590114059}
   m_RootOrder: 0
@@ -16188,7 +16448,7 @@ GameObject:
   - component: {fileID: 1914007283}
   - component: {fileID: 1914007282}
   - component: {fileID: 1914007281}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: OV Door Top (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16206,6 +16466,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 790646192}
   m_RootOrder: 0
@@ -16235,6 +16496,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16285,7 +16547,7 @@ GameObject:
   - component: {fileID: 1919074340}
   - component: {fileID: 1919074342}
   - component: {fileID: 1919074341}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: Panning Door Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16302,6 +16564,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0.0000018179414}
   m_LocalPosition: {x: 9.18, y: 1.191, z: 0.008}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1077751063}
   - {fileID: 428969414}
@@ -16340,7 +16603,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Panner Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -16393,6 +16655,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3.097, z: 8.947}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1439042540}
   m_RootOrder: 12
@@ -16409,6 +16672,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -16455,6 +16719,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 11479948, guid: 1f600c7f8c304014388c34e2f24e79d6, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 22444650, guid: 1f600c7f8c304014388c34e2f24e79d6, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -16557,6 +16825,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.38268292, z: 0, w: 0.9238798}
   m_LocalPosition: {x: -6.509, y: 1.2030001, z: 6.472}
   m_LocalScale: {x: 0.39999992, y: 2.2, z: 1.7499998}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 756417914}
   - {fileID: 1227670025}
@@ -16595,7 +16864,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: Programmer Sounds Room
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -16648,6 +16916,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.35143825, y: 0.35143825, z: 0.35143825}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 9
@@ -16732,6 +17001,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 8.93}
   m_LocalScale: {x: 0.0017394541, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1776405340}
   m_Father: {fileID: 1991162560}
@@ -16837,6 +17107,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.38569522, y: 0.38569522, z: 0.38569522}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 14
@@ -16848,7 +17119,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1971149457
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9578446, guid: ef63cf7b21b591940b8edd71ea948824,
     type: 3}
@@ -16862,6 +17133,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -16941,6 +17213,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1996429810}
   m_RootOrder: 0
@@ -16970,6 +17243,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17039,6 +17313,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.92387897, z: 0, w: 0.382685}
   m_LocalPosition: {x: 6.3265047, y: 3.097, z: -6.3264637}
   m_LocalScale: {x: 234.42929, y: 89.55421, z: 6.3346004}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1439042540}
   m_RootOrder: 2
@@ -17055,6 +17330,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17124,6 +17400,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.38268292, z: 0, w: 0.9238798}
   m_LocalPosition: {x: 6.3264775, y: 3.097, z: 6.326491}
   m_LocalScale: {x: 234.42937, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1991162560}
   m_RootOrder: 4
@@ -17140,6 +17417,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17704,6 +17982,7 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 5.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1235275667}
   - {fileID: 1134259426}
@@ -17752,6 +18031,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1556825166}
   m_RootOrder: 0
@@ -17781,6 +18061,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17848,6 +18129,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -9.188, y: 1.1890001, z: -0.023}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1974531200}
   - {fileID: 830638755}
@@ -17886,7 +18168,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314
@@ -17935,6 +18216,7 @@ Transform:
   m_LocalRotation: {x: 0.00000017881393, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1671966488}
   - {fileID: 1822106544}
@@ -17973,6 +18255,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -11}
   m_LocalScale: {x: 1, y: 2, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 436637066}
   m_RootOrder: 0
@@ -18056,6 +18339,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 523531671}
   m_RootOrder: 16
@@ -18130,6 +18414,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: -0.0062340093, z: 0, w: 0.99998057}
   m_LocalPosition: {x: 0, y: 0, z: -3}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 622130925}
   m_RootOrder: 0
@@ -18214,6 +18499,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.3826849, z: 0, w: -0.92387897}
   m_LocalPosition: {x: 0, y: 0, z: 6.3108554}
   m_LocalScale: {x: 0.0017394542, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1447377610}
   m_Father: {fileID: 378349618}
@@ -18318,6 +18604,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3.097, z: 8.947}
   m_LocalScale: {x: 234.42938, y: 89.55421, z: 6.3346024}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1991162560}
   m_RootOrder: 11
@@ -18334,6 +18621,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18404,6 +18692,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0.70710605, z: 0, w: 0.7071076}
   m_LocalPosition: {x: 0, y: 0, z: -0.024}
   m_LocalScale: {x: 0.0017394541, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 538186882}
   m_Father: {fileID: 1439042540}
@@ -18509,6 +18798,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 8.93}
   m_LocalScale: {x: 0.0017394541, y: 0.0007553666, z: 0.0020691487}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 348361478}
   m_Father: {fileID: 378349618}
@@ -18614,6 +18904,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 382823300}
   m_RootOrder: 0
@@ -18643,6 +18934,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18714,13 +19006,14 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 0.16440131, y: -0.227, z: -0.0044446886}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 315676137}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &2127251274
 Animator:
-  serializedVersion: 3
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 9521906, guid: 784668a93491bf1428484a78b1962b31,
     type: 3}
@@ -18734,6 +19027,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -18757,6 +19051,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18833,6 +19128,7 @@ Transform:
   m_LocalRotation: {x: 1.3455325e-24, y: -0.0000016391275, z: 3.1854317e-25, w: -1}
   m_LocalPosition: {x: 22.864, y: -0.534, z: -0.005}
   m_LocalScale: {x: 2.5, y: 0.45454544, z: 0.57142866}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 315676137}
   m_RootOrder: 0
@@ -18862,6 +19158,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -18929,6 +19226,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.70710856, z: 0, w: -0.7071051}
   m_LocalPosition: {x: -0.001, y: 1.191, z: -9.187}
   m_LocalScale: {x: 0.4, y: 2.2, z: 1.75}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 687206614}
   - {fileID: 944299771}
@@ -18967,7 +19265,6 @@ MonoBehaviour:
   m_doorHoldTime: 0.5
   m_unloadDelay: 0.5
   m_bankToLoad: 
-  m_doorSound: 
   m_doorRef:
     Guid:
       Data1: -564163314

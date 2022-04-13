@@ -11,14 +11,14 @@ After downloading the project:
 
 1. Install FMOD for Unity.
 2. [Link FMOD to the supplied banks](https://fmod.com/resources/documentation-unity?version=2.01&page=user-guide.html#using-a-single-platform-build) found in "Assets\FMODBanks\Desktop".
-3. Open the 'Overworld' scene.
+3. Open the 'Overworld v2.0' scene.
 4. Press play.
 
 Key tips while playing:
 
 - Using headphones will enhance the experience and give you a better understanding of what is happening.
 
-- Press ESC for the Main Menu, and ESC again to close it.
+- Press ESC ('P' while in the editor) for the Main Menu, and ESC again to close it.
 
 - Options (Graphics Settings/Volume Controls) are available in the Main Menu.
 

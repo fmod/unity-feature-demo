@@ -237,8 +237,8 @@ public class ActorControls : MonoBehaviour
 
         //Raycast
         RaycastHit ray;
-        int layerMask = (1 << 2) | (1 << 11);
-        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out ray, m_selectDistance, ~layerMask))
+        int layerMask = (1 << 7) | (1 << 16);
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out ray, m_selectDistance, layerMask))
         {
             //Disable last actionObject outline
             if (m_actionObject)

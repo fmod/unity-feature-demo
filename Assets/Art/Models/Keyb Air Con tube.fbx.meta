@@ -1,77 +1,177 @@
 fileFormatVersion: 2
 guid: 950726224b4e8a3479111ab8e43a9018
-timeCreated: 1474959885
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: pCylinder83
-    100004: pCylinder84
-    100006: pCylinder85
-    100008: pCylinder86
-    100010: pCylinder87
-    100012: pCylinder88
-    100014: pCylinder89
-    100016: pCylinder90
-    100018: pCylinder91
-    100020: pCylinder92
-    100022: pCylinder93
-    100024: transform66
-    100026: transform67
-    100028: transform68
-    100030: transform69
-    100032: transform70
-    100034: transform71
-    100036: transform72
-    100038: transform73
-    100040: transform74
-    100042: transform75
-    400000: //RootNode
-    400002: pCylinder83
-    400004: pCylinder84
-    400006: pCylinder85
-    400008: pCylinder86
-    400010: pCylinder87
-    400012: pCylinder88
-    400014: pCylinder89
-    400016: pCylinder90
-    400018: pCylinder91
-    400020: pCylinder92
-    400022: pCylinder93
-    400024: transform66
-    400026: transform67
-    400028: transform68
-    400030: transform69
-    400032: transform70
-    400034: transform71
-    400036: transform72
-    400038: transform73
-    400040: transform74
-    400042: transform75
-    2300000: pCylinder93
-    3300000: pCylinder93
-    4300000: pCylinder93
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: pCylinder83
+  - first:
+      1: 100004
+    second: pCylinder84
+  - first:
+      1: 100006
+    second: pCylinder85
+  - first:
+      1: 100008
+    second: pCylinder86
+  - first:
+      1: 100010
+    second: pCylinder87
+  - first:
+      1: 100012
+    second: pCylinder88
+  - first:
+      1: 100014
+    second: pCylinder89
+  - first:
+      1: 100016
+    second: pCylinder90
+  - first:
+      1: 100018
+    second: pCylinder91
+  - first:
+      1: 100020
+    second: pCylinder92
+  - first:
+      1: 100022
+    second: pCylinder93
+  - first:
+      1: 100024
+    second: transform66
+  - first:
+      1: 100026
+    second: transform67
+  - first:
+      1: 100028
+    second: transform68
+  - first:
+      1: 100030
+    second: transform69
+  - first:
+      1: 100032
+    second: transform70
+  - first:
+      1: 100034
+    second: transform71
+  - first:
+      1: 100036
+    second: transform72
+  - first:
+      1: 100038
+    second: transform73
+  - first:
+      1: 100040
+    second: transform74
+  - first:
+      1: 100042
+    second: transform75
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: pCylinder83
+  - first:
+      4: 400004
+    second: pCylinder84
+  - first:
+      4: 400006
+    second: pCylinder85
+  - first:
+      4: 400008
+    second: pCylinder86
+  - first:
+      4: 400010
+    second: pCylinder87
+  - first:
+      4: 400012
+    second: pCylinder88
+  - first:
+      4: 400014
+    second: pCylinder89
+  - first:
+      4: 400016
+    second: pCylinder90
+  - first:
+      4: 400018
+    second: pCylinder91
+  - first:
+      4: 400020
+    second: pCylinder92
+  - first:
+      4: 400022
+    second: pCylinder93
+  - first:
+      4: 400024
+    second: transform66
+  - first:
+      4: 400026
+    second: transform67
+  - first:
+      4: 400028
+    second: transform68
+  - first:
+      4: 400030
+    second: transform69
+  - first:
+      4: 400032
+    second: transform70
+  - first:
+      4: 400034
+    second: transform71
+  - first:
+      4: 400036
+    second: transform72
+  - first:
+      4: 400038
+    second: transform73
+  - first:
+      4: 400040
+    second: transform74
+  - first:
+      4: 400042
+    second: transform75
+  - first:
+      23: 2300000
+    second: pCylinder93
+  - first:
+      33: 3300000
+    second: pCylinder93
+  - first:
+      43: 4300000
+    second: pCylinder93
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations: []
     isReadable: 1
   meshes:
@@ -79,25 +179,47 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -107,11 +229,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 0
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

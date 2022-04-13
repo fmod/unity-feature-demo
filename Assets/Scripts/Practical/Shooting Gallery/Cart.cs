@@ -101,6 +101,7 @@ public class Cart : ActionObject
             m_stopping = true;
         }
     }
+
     void Stop()
     {
         m_player.DisableMovement = false;
@@ -108,6 +109,7 @@ public class Cart : ActionObject
         m_playerIsSeated = false;
         m_stopping = false;
     }
+
     void CalculateHeading()
     {
         if ((m_manager.GetCurrentTrack().position - transform.position).magnitude <= m_nearThreshold)       //if the current target track has been reached within the threshold then increment current Track index or set it back to 0 if the current index is the last track in array.
@@ -115,18 +117,18 @@ public class Cart : ActionObject
             m_manager.IncremetTrack();      //Tell manager to increment Track
         }
 
-        
         Vector3 newForward = transform.forward + (m_manager.GetCurrentTrack().position - transform.position) * m_turningPower;  //Turn towards next track
         newForward.Normalize();
         transform.forward = newForward;     //Set the carts forward to the new forward
     }
+
     void Move()
     {
         //Add to velocity with acceleration
         if (!m_stopping)
             m_currentVelocity += m_acceleration;
         else
-            m_currentVelocity -= m_acceleration;
+            m_currentVelocity -= m_acceleration * 2;
         //Cap speed to top speed
         if (m_currentVelocity > m_topSpeed)
             m_currentVelocity = m_topSpeed;
