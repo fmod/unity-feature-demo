@@ -38,7 +38,7 @@ public class Flag : ActionObject
         {
             //Raycast past flag to see if theres obstruction forcing the flag to be closer to the player
             RaycastHit rh;
-            int layerMask = 1 << LayerMask.NameToLayer("PlayerIgnore");
+            int layerMask = 1 << LayerMask.NameToLayer("Interactable");
             layerMask = ~layerMask;
             if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out rh, m_distance, layerMask) && rh.collider.gameObject.name != "Programmer Sounds Door Container")
             {
