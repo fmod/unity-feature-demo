@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 277840625}
   - component: {fileID: 277840628}
   - component: {fileID: 277840627}
-  m_Layer: 10
+  m_Layer: 7
   m_Name: Radio slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}

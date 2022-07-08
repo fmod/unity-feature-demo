@@ -1627,6 +1627,10 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 22492030, guid: 49b4d166a0222a749a3fb4cd62f330c7, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49b4d166a0222a749a3fb4cd62f330c7, type: 3}
 --- !u!1 &145772568
@@ -37113,7 +37117,7 @@ GameObject:
   - component: {fileID: 1344771001}
   - component: {fileID: 1344771000}
   - component: {fileID: 1344771005}
-  m_Layer: 13
+  m_Layer: 7
   m_Name: Panning Bell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
