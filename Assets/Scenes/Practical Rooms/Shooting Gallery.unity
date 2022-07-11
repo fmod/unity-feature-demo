@@ -23394,7 +23394,7 @@ MonoBehaviour:
   m_manager: {fileID: 235939067}
   m_seat: {fileID: 2137046108}
   m_topSpeed: 2
-  m_acceleration: 0.005
+  m_acceleration: 0.01
   m_turningPower: 0.1
   m_nearThreshold: 0.45
 --- !u!1 &1862625931

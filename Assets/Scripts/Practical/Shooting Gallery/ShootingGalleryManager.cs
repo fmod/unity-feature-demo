@@ -50,10 +50,6 @@ public class ShootingGalleryManager : MonoBehaviour
         m_cart.transform.position = m_tracks[m_currentTrackIndex].transform.position;
         m_cart.transform.forward = m_tracks[++m_currentTrackIndex].transform.position - m_cart.transform.position;
     }
-    void Update()
-    {
-
-    }
 
     public void Play()
     {
