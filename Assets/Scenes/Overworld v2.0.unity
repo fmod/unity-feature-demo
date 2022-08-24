@@ -516,7 +516,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 1316410883}
   m_lowerDoor: {fileID: 1711553259}
   m_sceneToLoad: 
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: 
   m_doorRef:
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 1225676502}
   m_lowerDoor: {fileID: 1537954054}
   m_sceneToLoad: Scatter Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Scatter Room
   m_doorRef:
@@ -2146,7 +2146,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 2133615518}
   m_lowerDoor: {fileID: 2127251272}
   m_sceneToLoad: 
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: 
   m_doorRef:
@@ -2538,7 +2538,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 2102280775}
   m_lowerDoor: {fileID: 1013132463}
   m_sceneToLoad: 
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: 
   m_doorRef:
@@ -4568,7 +4568,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 915044147}
   m_lowerDoor: {fileID: 174028388}
   m_sceneToLoad: Sound Spin Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Sound Spin Room
   m_doorRef:
@@ -5390,7 +5390,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 1055278981}
   m_lowerDoor: {fileID: 1091987270}
   m_sceneToLoad: Event Cone Angle-Orientation Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Event Cone Room
   m_doorRef:
@@ -5580,7 +5580,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 1016581858}
   m_lowerDoor: {fileID: 1527734303}
   m_sceneToLoad: SoundVFX
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: SoundVFX
   m_doorRef:
@@ -5886,7 +5886,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 929920273}
   m_lowerDoor: {fileID: 740299085}
   m_sceneToLoad: Transceiver Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Transceiver Room
   m_doorRef:
@@ -6717,7 +6717,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 1054075558}
   m_lowerDoor: {fileID: 34674330}
   m_sceneToLoad: Custom Distance Attenuation Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Custom Distance Atten Room
   m_doorRef:
@@ -6806,7 +6806,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 555819388}
   m_lowerDoor: {fileID: 1705899017}
   m_sceneToLoad: Volume Control Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Volume Control Room
   m_doorRef:
@@ -7045,7 +7045,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 1914007279}
   m_lowerDoor: {fileID: 1425949220}
   m_sceneToLoad: Surfaces Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Surfaces Room
   m_doorRef:
@@ -7708,7 +7708,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 389338785}
   m_lowerDoor: {fileID: 1389728388}
   m_sceneToLoad: Player Parameter Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Player Parameter Room
   m_doorRef:
@@ -9158,7 +9158,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 547556088}
   m_lowerDoor: {fileID: 1133575706}
   m_sceneToLoad: Shooting Gallery
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Shooting Gallery
   m_doorRef:
@@ -10201,7 +10201,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 99632419}
   m_lowerDoor: {fileID: 627392432}
   m_sceneToLoad: 
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: 
   m_doorRef:
@@ -11854,7 +11854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22480748, guid: 4a83245bc9ec66a41ac6ce77d7ac1594, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 72.899994
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22480748, guid: 4a83245bc9ec66a41ac6ce77d7ac1594, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12819,7 +12819,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 618953067}
   m_lowerDoor: {fileID: 1202740173}
   m_sceneToLoad: Snapshot Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Snapshot Room
   m_doorRef:
@@ -13716,7 +13716,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 542790071}
   m_lowerDoor: {fileID: 1321132037}
   m_sceneToLoad: Interactive Music Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Interactive Music Room
   m_doorRef:
@@ -13928,7 +13928,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 1991963135}
   m_lowerDoor: {fileID: 28208417}
   m_sceneToLoad: 
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: 
   m_doorRef:
@@ -14143,7 +14143,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 406993829}
   m_lowerDoor: {fileID: 539656171}
   m_sceneToLoad: Thunder Dome
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Thunder Dome
   m_doorRef:
@@ -14560,7 +14560,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 809860435}
   m_lowerDoor: {fileID: 1212512838}
   m_sceneToLoad: Sound Module Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Sound Module Room
   m_doorRef:
@@ -15634,10 +15634,6 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 11453076, guid: 49b4d166a0222a749a3fb4cd62f330c7, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 11456984, guid: 49b4d166a0222a749a3fb4cd62f330c7, type: 3}
       propertyPath: m_BlockingObjects
       value: 0
@@ -16295,7 +16291,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 924577742}
   m_lowerDoor: {fileID: 588557786}
   m_sceneToLoad: 
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: 
   m_doorRef:
@@ -16604,7 +16600,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 428969413}
   m_lowerDoor: {fileID: 1077751062}
   m_sceneToLoad: Panning Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Panner Room
   m_doorRef:
@@ -16769,7 +16765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22444650, guid: 1f600c7f8c304014388c34e2f24e79d6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.8619995
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 22444650, guid: 1f600c7f8c304014388c34e2f24e79d6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -16865,7 +16861,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 1227670024}
   m_lowerDoor: {fileID: 756417913}
   m_sceneToLoad: Programmer Sound Room
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: Programmer Sounds Room
   m_doorRef:
@@ -19266,7 +19262,7 @@ MonoBehaviour:
   m_upperDoor: {fileID: 944299770}
   m_lowerDoor: {fileID: 687206613}
   m_sceneToLoad: 
-  m_doorHoldTime: 0.5
+  m_doorHoldTime: 0.1
   m_unloadDelay: 0.5
   m_bankToLoad: 
   m_doorRef:

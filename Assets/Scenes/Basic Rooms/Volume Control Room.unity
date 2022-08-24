@@ -982,7 +982,7 @@ MonoBehaviour:
   m_clickGlowStrength: 1
   m_newColor: {r: 0, g: 1, b: 1, a: 1}
   m_localClickDirection: {x: 0, y: 0, z: 0}
-  m_glowOnce: 1
+  m_glowOnce: 0
   m_pressPerSecond: 0
   m_eventRef:
     Guid:
@@ -2448,7 +2448,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 153620, guid: 1cda92a4912143745a8a0c347006dc14, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 475466, guid: 1cda92a4912143745a8a0c347006dc14, type: 3}
       propertyPath: m_RootOrder
@@ -2512,7 +2512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19885618, guid: 1cda92a4912143745a8a0c347006dc14, type: 3}
       propertyPath: ShapeModule.radiusThickness
-      value: 1.0000
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 19885618, guid: 1cda92a4912143745a8a0c347006dc14, type: 3}
       propertyPath: InitialModule.startSize.scalar
@@ -2528,6 +2528,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 19885618, guid: 1cda92a4912143745a8a0c347006dc14, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19906106, guid: 1cda92a4912143745a8a0c347006dc14, type: 3}
+      propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -5457,7 +5461,7 @@ GameObject:
   - component: {fileID: 1958418450}
   - component: {fileID: 1958418449}
   - component: {fileID: 1958418451}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Radio
   m_TagString: Untagged
   m_Icon: {fileID: 0}

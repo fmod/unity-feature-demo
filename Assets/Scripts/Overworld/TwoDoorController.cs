@@ -41,7 +41,6 @@ public class TwoDoorController : ActionObject
     |       Reference to a single instance of the door closing snapshot that will affect all the rooms.     |
     =======================================================================================================*/
     public FMODUnity.StudioEventEmitter m_doorCloseSnapshot;
-    FMODUnity.ParamRef m_snapshotIntensity;
 
     // Private Vars
     FMOD.Studio.EventInstance m_doorEvent;
@@ -136,8 +135,8 @@ public class TwoDoorController : ActionObject
         if (m_completed)
         {
             Renderer rend = m_lowerDoor.GetComponent<Renderer>();
-			rend.materials[2].SetColor("_EmissionColor", new Color(2f,0.70f,0f));
-			DynamicGI.SetEmissive(rend, new Color(2f,0.70f,0f));
+            rend.materials[2].SetColor("_EmissionColor", new Color(2f,0.70f,0f));
+            DynamicGI.SetEmissive(rend, new Color(2f,0.70f,0f));
         }
 
         if (!SceneManager.GetSceneByName(m_sceneToLoad).isLoaded)
@@ -162,16 +161,16 @@ public class TwoDoorController : ActionObject
                 if (SceneManager.GetSceneAt(i).name != "Overworld v2.0")
                 {
                     SceneManager.UnloadSceneAsync(SceneManager.GetSceneAt(i));
-                    m_doorCloseSnapshot.Stop();
+                    ToggleSnapshot(false);
                 }
             }
             StartCoroutine(LoadBankThenScene());
         }
         else
         {
-            m_doorCloseSnapshot.Stop();
             m_opening = true;
             PlayDoorSound();
+            ToggleSnapshot(false);
         }
     }
 
@@ -232,7 +231,6 @@ public class TwoDoorController : ActionObject
     /// <returns></returns>
     IEnumerator LoadBankThenScene()
     {
-        m_doorCloseSnapshot.Stop();
         //~~~~~~~~~~~~~~~ Load the room audio ~~~~~~~~~~~~~~~\\
         if (m_bankToLoad != "")
         {
@@ -260,9 +258,10 @@ public class TwoDoorController : ActionObject
                 yield return true;
             }
         }
-        
+
         m_opening = true;
         PlayDoorSound();
+        ToggleSnapshot(!m_opening);
     }
 
     /// <summary>
@@ -278,17 +277,13 @@ public class TwoDoorController : ActionObject
         yield return new WaitForSeconds(m_doorHoldTime);
         m_opening = false;
         PlayDoorSound();
+        ToggleSnapshot(!m_opening);
 
         // Check to see if door is closed
         while (m_lowerDoor.transform.localPosition != m_lowerClosedPos)
         {
             yield return false;
         }
-
-        /*===============================================Fmod====================================================
-        |                              Add effect here for when then door closes.                               |
-        =======================================================================================================*/
-        m_doorCloseSnapshot.Play();
     }
 
     void OnDrawGizmos()
@@ -303,6 +298,22 @@ public class TwoDoorController : ActionObject
     {
         if (m_bankToLoad != "")
             FMODUnity.RuntimeManager.UnloadBank(m_bankToLoad);
+    }
+
+    void ToggleSnapshot(bool play)
+    {
+        FMOD.Studio.PLAYBACK_STATE playbackState = FMOD.Studio.PLAYBACK_STATE.STOPPED;
+        m_doorCloseSnapshot.EventInstance.getPlaybackState(out playbackState);
+        if (play && playbackState != FMOD.Studio.PLAYBACK_STATE.PLAYING)
+        {
+            m_doorCloseSnapshot.Play();
+            Debug.Log("Play snapshot");
+        }
+        else if (!play)
+        {
+            m_doorCloseSnapshot.Stop();
+            Debug.Log("Stop snapshot");
+        }
     }
 
     #endregion
