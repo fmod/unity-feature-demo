@@ -1,7 +1,7 @@
 Welcome to this FMOD Feature Demo!
 ----------------------------------
 
-Tested with Unity 2021.2 and FMOD 2.02 on Windows, Mac, Linux.
+Tested with Unity 2021.3.45f2 and FMOD 2.02 on Windows, Mac, Linux.
 
 This project demonstrates a wide range of features found in FMOD and some examples of how you can utilize them in your own project.
 
